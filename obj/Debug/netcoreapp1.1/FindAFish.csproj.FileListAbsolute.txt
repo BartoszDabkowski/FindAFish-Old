@@ -1,0 +1,8 @@
+/Users/bartoszdabkowski/FindAFish/bin/Debug/netcoreapp1.1/FindAFish.deps.json
+/Users/bartoszdabkowski/FindAFish/bin/Debug/netcoreapp1.1/FindAFish.runtimeconfig.json
+/Users/bartoszdabkowski/FindAFish/bin/Debug/netcoreapp1.1/FindAFish.runtimeconfig.dev.json
+/Users/bartoszdabkowski/FindAFish/bin/Debug/netcoreapp1.1/FindAFish.dll
+/Users/bartoszdabkowski/FindAFish/bin/Debug/netcoreapp1.1/FindAFish.pdb
+/Users/bartoszdabkowski/FindAFish/obj/Debug/netcoreapp1.1/FindAFish.AssemblyInfo.cs
+/Users/bartoszdabkowski/FindAFish/obj/Debug/netcoreapp1.1/FindAFish.dll
+/Users/bartoszdabkowski/FindAFish/obj/Debug/netcoreapp1.1/FindAFish.pdb
