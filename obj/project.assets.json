@@ -9683,16 +9683,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bartoszdabkowski/FindAFish/FindAFish.csproj",
+      "projectUniqueName": "/Users/bartoszdabkowski/Documents/GitHub/FindAFish/FindAFish.csproj",
       "projectName": "FindAFish",
-      "projectPath": "/Users/bartoszdabkowski/FindAFish/FindAFish.csproj",
-      "outputPath": "/Users/bartoszdabkowski/FindAFish/obj/",
+      "projectPath": "/Users/bartoszdabkowski/Documents/GitHub/FindAFish/FindAFish.csproj",
+      "outputPath": "/Users/bartoszdabkowski/Documents/GitHub/FindAFish/obj/",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/FindAFish.dll": "/Users/bartoszdabkowski/FindAFish/bin/placeholder/netcoreapp1.1/FindAFish.dll"
+        "lib/netcoreapp1.1/FindAFish.dll": "/Users/bartoszdabkowski/Documents/GitHub/FindAFish/bin/placeholder/netcoreapp1.1/FindAFish.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {
