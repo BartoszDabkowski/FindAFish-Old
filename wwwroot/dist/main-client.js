@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "bee999b41c4f0d1b5aab"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "cfe0f7948010642ad098"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -1564,6 +1564,7 @@ exports.sharedConfig = {
             { path: 'home', component: home_component_1.HomeComponent },
             { path: 'counter', component: counter_component_1.CounterComponent },
             { path: 'fetch-data', component: fetchdata_component_1.FetchDataComponent },
+            { path: 'fish-list', component: fish_list_component_1.FishListComponent },
             { path: '**', redirectTo: 'home' }
         ])
     ]
@@ -1691,6 +1692,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(1);
 var FishListComponent = (function () {
     function FishListComponent() {
+        this.fishList = ["Angel", "Angler", "Anthias", "Basslet", "Blennies", "Boxfish",
+            "Butterflyfish", "Cardinalfish", "Chromis", "Clownfish", "Damselfish", "Dartfish",
+            "Dottyback", "Dottyback", "Dragonetes", "Eels", "Filefish", "Foxface", "Gobies",
+            "Groupers", "Grunts", "Hawkfish", "Hogfish", "Jawfish", "Lionfish",
+            "Pipefish", "Puffers", "Rays", "Scorpions", "Seahorses", "Sharks", "Squirrellfish",
+            "Tangs", "Triggerfish", "Wrasse", "Misc. Fish"];
     }
     FishListComponent.prototype.ngOnInit = function () {
     };
@@ -1699,8 +1706,7 @@ var FishListComponent = (function () {
 FishListComponent = __decorate([
     core_1.Component({
         selector: 'app-fish-list',
-        template: __webpack_require__(27),
-        styles: [__webpack_require__(36)]
+        template: __webpack_require__(27)
     }),
     __metadata("design:paramtypes", [])
 ], FishListComponent);
@@ -1779,20 +1785,7 @@ exports.push([module.i, "@media (max-width: 767px) {\r\n    /* On small screens,
 
 
 /***/ }),
-/* 19 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(2)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/***/ }),
+/* 19 */,
 /* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2154,7 +2147,7 @@ module.exports = "<h1>Weather forecast</h1>\r\n\r\n<p>This component demonstrate
 /* 27 */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  fish-list works!\n</p>\n";
+module.exports = "<p>\n  fish-list works!\n</p>\n<ul>\n  <li *ngFor=\"let fish of fishList\">\n    {{ fish }}\n  </li>\n</ul>\n";
 
 /***/ }),
 /* 28 */
@@ -2166,7 +2159,7 @@ module.exports = "<h1>Find-A-Fish</h1>\r\n\r\n";
 /* 29 */
 /***/ (function(module, exports) {
 
-module.exports = "<div class='main-nav'>\r\n    <div class='navbar navbar-inverse'>\r\n        <div class='navbar-header'>\r\n            <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>\r\n                <span class='sr-only'>Toggle navigation</span>\r\n                <span class='icon-bar'></span>\r\n                <span class='icon-bar'></span>\r\n                <span class='icon-bar'></span>\r\n            </button>\r\n            <a class='navbar-brand' [routerLink]=\"['/home']\">WebApplicationBasic</a>\r\n        </div>\r\n        <div class='clearfix'></div>\r\n        <div class='navbar-collapse collapse'>\r\n            <ul class='nav navbar-nav'>\r\n                <li [routerLinkActive]=\"['link-active']\">\r\n                    <a [routerLink]=\"['/home']\">\r\n                        <span class='glyphicon glyphicon-home'></span> Home\r\n                    </a>\r\n                </li>\r\n                <li [routerLinkActive]=\"['link-active']\">\r\n                    <a [routerLink]=\"['/counter']\">\r\n                        <span class='glyphicon glyphicon-education'></span> Counter\r\n                    </a>\r\n                </li>\r\n                <li [routerLinkActive]=\"['link-active']\">\r\n                    <a [routerLink]=\"['/fetch-data']\">\r\n                        <span class='glyphicon glyphicon-th-list'></span> Fetch data\r\n                    </a>\r\n                </li>\r\n            </ul>\r\n        </div>\r\n    </div>\r\n</div>\r\n";
+module.exports = "<div class='main-nav'>\r\n    <div class='navbar navbar-inverse'>\r\n        <div class='navbar-header'>\r\n            <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>\r\n                <span class='sr-only'>Toggle navigation</span>\r\n                <span class='icon-bar'></span>\r\n                <span class='icon-bar'></span>\r\n                <span class='icon-bar'></span>\r\n            </button>\r\n            <a class='navbar-brand' [routerLink]=\"['/home']\">WebApplicationBasic</a>\r\n        </div>\r\n        <div class='clearfix'></div>\r\n        <div class='navbar-collapse collapse'>\r\n            <ul class='nav navbar-nav'>\r\n                <li [routerLinkActive]=\"['link-active']\">\r\n                    <a [routerLink]=\"['/home']\">\r\n                        <span class='glyphicon glyphicon-home'></span> Home\r\n                    </a>\r\n                </li>\r\n                <li [routerLinkActive]=\"['link-active']\">\r\n                    <a [routerLink]=\"['/counter']\">\r\n                        <span class='glyphicon glyphicon-education'></span> Counter\r\n                    </a>\r\n                </li>\r\n                <li [routerLinkActive]=\"['link-active']\">\r\n                    <a [routerLink]=\"['/fetch-data']\">\r\n                        <span class='glyphicon glyphicon-th-list'></span> Fetch data\r\n                    </a>\r\n                </li>\r\n                <li [routerLinkActive]=\"['link-active']\">\r\n                    <a [routerLink]=\"['/fish-list']\">\r\n                        <span class='glyphicon glyphicon-th-list'></span> Fish\r\n                    </a>\r\n                </li>\r\n            </ul>\r\n        </div>\r\n    </div>\r\n</div>\r\n";
 
 /***/ }),
 /* 30 */
@@ -3521,20 +3514,7 @@ module.exports = function (str) {
     
 
 /***/ }),
-/* 36 */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-        var result = __webpack_require__(19);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
-
-/***/ }),
+/* 36 */,
 /* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
