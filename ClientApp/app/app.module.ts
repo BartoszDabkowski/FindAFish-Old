@@ -1,3 +1,4 @@
+import { FishListService } from './components/fish-list/fish-list.service';
 import { FishListComponent } from './components/fish-list/fish-list.component';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
@@ -27,5 +28,8 @@ export const sharedConfig: NgModule = {
             { path: 'fish-list', component: FishListComponent },
             { path: '**', redirectTo: 'home' }
         ])
+    ],
+    providers: [
+        FishListService
     ]
 };

@@ -1,3 +1,4 @@
+import { FishListService } from './fish-list.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -5,13 +6,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './fish-list.component.html'
 })
 export class FishListComponent implements OnInit {
-  fishList = ["Angel", "Angler", "Anthias", "Basslet", "Blennies", "Boxfish", 
-  "Butterflyfish", "Cardinalfish", "Chromis", "Clownfish", "Damselfish", "Dartfish",
-  "Dottyback", "Dottyback", "Dragonetes", "Eels", "Filefish", "Foxface", "Gobies", 
-  "Groupers", "Grunts", "Hawkfish", "Hogfish", "Jawfish", "Lionfish",
-  "Pipefish", "Puffers", "Rays", "Scorpions", "Seahorses", "Sharks", "Squirrellfish",
-  "Tangs", "Triggerfish", "Wrasse", "Misc. Fish"];
-  constructor() { }
+  fishList = [];
+
+  constructor(service : FishListService) { 
+    this.fishList = service.getFish();
+  }
 
   ngOnInit() {
   }
