@@ -1,8 +1,6 @@
-<p>
-  fish-list works!
-</p>
-<ul>
-  <li *ngFor="let fish of fishList">
-    {{ fish }}
-  </li>
-</ul>
+
+
+  <div class="col-xs-3" *ngFor="let fish of fishList">
+    <img class="img-thumbnail" src="{{ fish.imageUrl }}">
+    {{ fish.name }}
+  </div>
