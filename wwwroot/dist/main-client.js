@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "4d4ca5f3481485d2b57c"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "339ffefd89241dd1e0ed"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -1906,7 +1906,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, "a:hover  {\n    background-color: #f6f6f6;\n    border-color: #dbdbdb;\n    text-decoration-line: none;\n}", ""]);
 
 // exports
 
@@ -2273,13 +2273,13 @@ module.exports = "<h1>Weather forecast</h1>\r\n\r\n<p>This component demonstrate
 /* 30 */
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"row\">\n  <div *ngFor=\"let fish of fishList\">\n    <app-fish-thumbnail [fish]=\"fish\"></app-fish-thumbnail>\n  </div>\n</div>\n";
+module.exports = "\n<div class=\"\">\n<div class=\"row\">\n  <div *ngFor=\"let fish of fishList\">\n    <app-fish-thumbnail [fish]=\"fish\"></app-fish-thumbnail>\n  </div>\n</div>\n</div>\n";
 
 /***/ }),
 /* 31 */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"col-sm-3 col-md-2\">\n  <div class=\"thumbnail\">\n    <img class=\"\" [src]=\"fish.imageUrl\" alt=\"...\">\n    <div class=\"caption\">\n      <h5 class=\"text-center\">{{ fish.name }}</h5>\n    </div>\n  </div>\n</div>";
+module.exports = "<div class=\"col-sm-3 col-md-2\">\n  <a class=\"thumbnail\">\n    <img class=\"img-fluid\" [src]=\"fish.imageUrl\" alt=\"...\">\n    <div class=\"caption\">\n      <h5 class=\"text-center\">{{ fish.name }}</h5>\n    </div>\n  </a>\n</div>";
 
 /***/ }),
 /* 32 */
