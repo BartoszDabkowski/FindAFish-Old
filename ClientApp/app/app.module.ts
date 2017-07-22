@@ -1,3 +1,4 @@
+import { FishThumbnailComponent } from './components/fish-thumbnail/fish-thumbnail.component';
 import { FishListService } from './components/fish-list/fish-list.service';
 import { FishListComponent } from './components/fish-list/fish-list.component';
 import { NgModule } from '@angular/core';
@@ -17,7 +18,8 @@ export const sharedConfig: NgModule = {
         CounterComponent,
         FetchDataComponent,
         HomeComponent,
-        FishListComponent
+        FishListComponent,
+        FishThumbnailComponent
     ],
     imports: [
         RouterModule.forRoot([

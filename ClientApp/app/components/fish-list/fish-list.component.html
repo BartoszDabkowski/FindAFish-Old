@@ -1,6 +1,6 @@
 
-
-  <div class="col-xs-3" *ngFor="let fish of fishList">
-    <img class="img-thumbnail" src="{{ fish.imageUrl }}">
-    {{ fish.name }}
+<div class="row">
+  <div *ngFor="let fish of fishList">
+    <app-fish-thumbnail [fish]="fish"></app-fish-thumbnail>
   </div>
+</div>

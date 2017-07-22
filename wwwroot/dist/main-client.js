@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "a5056272bc25e90e057c"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "4d4ca5f3481485d2b57c"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -704,7 +704,7 @@
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return hotCreateRequire(47)(__webpack_require__.s = 47);
+/******/ 	return hotCreateRequire(52)(__webpack_require__.s = 52);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -731,40 +731,40 @@ var FishListService = (function () {
     }
     FishListService.prototype.getFish = function () {
         return [
-            { "name": "Angel", "imageUrl": "https://puxccbo05z-flywheel.netdna-ssl.com/wp-content/uploads/2015/02/angelfish-2.jpg" },
-            { "name": "Angler", "imageUrl": "https://www.aquariumdomain.com/adSocial/PF.Base/file/pic/photo/2016/10/d02e9ff6b62aff55787f6569b6a260bd_1024.jpg?t=5884274996827" },
-            { "name": "Anthias", "imageUrl": "http://www.alfreddifalcoelectric.com/maleAnthias.jpg" },
-            { "name": "Basslet", "imageUrl": "http://oceansdirect.com/wp-content/uploads/2015/03/Royal-Dottyback-Basslet-Fish.jpg" },
-            { "name": "Blennies", "imageUrl": "http://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2017/04/01/Pictures/_202e8356-16a6-11e7-a5d6-c47fceabb9c0.jpg" },
-            { "name": "Boxfish", "imageUrl": "http://www.azula.com/wp-content/uploads/2016/07/Boxfish_Featured2.jpg" },
-            { "name": "Butterflyfish", "imageUrl": "http://fishkeepingadvice.com/wp-content/uploads/Butterfly-Fish1.jpg" },
-            { "name": "Cardinalfish", "imageUrl": "http://fishbreeds.net/wp-content/uploads/2012/04/cardinalfish.jpg" },
-            { "name": "Chromis", "imageUrl": "https://commondatastorage.googleapis.com/swf_product_images/239_green-chromis-only-99-cents-each-limit-3_1.jpg" },
-            { "name": "Clownfish", "imageUrl": "https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzA4NC83NDgvb3JpZ2luYWwvb2NlbGxhcmlzLWNsb3duZmlzaC5qcGc=" },
-            { "name": "Damselfish", "imageUrl": "http://www.petguide.com/wp-content/uploads/2014/01/damselfish-1.jpg" },
-            { "name": "Dartfish", "imageUrl": "http://www.ultimatereef.net/uploader/2008Q4/Fire_Dartfish.jpg" },
-            { "name": "Dottyback", "imageUrl": "http://www.saltwatersmarts.com/wp-content/uploads/2015/06/royal-dottyback1.jpg" },
-            { "name": "Dragonetes", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Synchiropus_splendidus_2_Luc_Viatour.jpg" },
-            { "name": "Eels", "imageUrl": "https://www.aquariumdomain.com/adSocial/PF.Base/file/pic/photo/2016/10/a4791bb8ce2a95fbc18a323a10f546c4_1024.jpg?t=588443cd548dc" },
-            { "name": "Filefish", "imageUrl": "http://www.sciencemag.org/sites/default/files/styles/article_main_large/public/images/sn-filefish.jpg?itok=18MVIM6T" },
-            { "name": "Foxface", "imageUrl": "http://www.saltwatersmarts.com/wp-content/uploads/2015/02/venomous4.jpg" },
-            { "name": "Gobies", "imageUrl": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/08c/0c2/0b4e4db.jpg" },
-            { "name": "Groupers", "imageUrl": "http://www.aquariumcreationsonline.net/images/miniatus.jpg" },
-            { "name": "Grunts", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Blue_Stripe_Grunt._Haemulon_sciurus.jpg/1200px-Blue_Stripe_Grunt._Haemulon_sciurus.jpg" },
-            { "name": "Hawkfish", "imageUrl": "http://www.aquariumdomain.com/adSocial/PF.Base/file/pic/photo/2016/09/3675e7970d4b3c6cf1b6601139b55283_1024.jpg?t=58850ff98e26f" },
-            { "name": "Hogfish", "imageUrl": "https://cdn.shopify.com/s/files/1/0614/1237/products/diana-hogfish-hog-fish-yourfishstore_2048x2048.jpeg?v=1496161068" },
-            { "name": "Jawfish", "imageUrl": "https://cdn.reefbuilders.com/wp-content/blogs.dir/1/files/2016/12/bluespot_jaw.jpg" },
-            { "name": "Lionfish", "imageUrl": "http://www.groupersandwich.com/news/wp-content/uploads/2015/07/lionfish1.jpg" },
-            { "name": "Pipefish", "imageUrl": "https://fusedjaw.com/wp-content/uploads/2014/09/Corythoichthys-instinalis-Scribbled-Pipefish-2-Aaron-Down.jpg" },
-            { "name": "Puffers", "imageUrl": "http://kids.nationalgeographic.com/content/dam/kids/photos/animals/Fish/H-P/pufferfish-inflated-closeup.adapt.945.1.jpg" },
-            { "name": "Rays", "imageUrl": "https://www.floridamuseum.ufl.edu/files/3214/0596/8458/Dasyatis-kuhlii-simi.JPG" },
-            { "name": "Scorpions", "imageUrl": "http://friendsoflajollashores.com/marinelife/wp-content/uploads/2012/07/Scorpionfish_7688882520_o.jpg" },
-            { "name": "Seahorses", "imageUrl": "https://fusedjaw.com/wp-content/uploads/2003/10/Brazilian-Seahorse-In-Aquarium.jpg" },
-            { "name": "Sharks", "imageUrl": "http://sharkfactsforkids.weebly.com/uploads/1/8/6/9/18696762/7878826.jpg?416" },
-            { "name": "Squirrellfish", "imageUrl": "http://www.ryanphotographic.com/images/JPEGS/Sargocentron%20ittodai%20Samurai%20squirrelfish%20%20(Holocentridae),%20Kadavu,%20Fiji.jpg" },
-            { "name": "Tangs", "imageUrl": "https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzA4NC82MzMvb3JpZ2luYWwvcmVnYWwtYmx1ZS10YW5nLmpwZw==" },
-            { "name": "Triggerfish", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Picasso.triggerfish.arp.jpg/1200px-Picasso.triggerfish.arp.jpg" },
-            { "name": "Wrasse", "imageUrl": "http://www.saltwatersmarts.com/wp-content/uploads/2014/02/sixline-wrasse1.jpg" }
+            { "name": "Angel", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Angler", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Anthias", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Basslet", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Blennies", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Boxfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Butterflyfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Cardinalfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Chromis", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Clownfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Damselfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Dartfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Dottyback", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Dragonetes", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Eels", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Filefish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Foxface", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Gobies", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Groupers", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Grunts", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Hawkfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Hogfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Jawfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Lionfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Pipefish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Puffers", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Rays", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Scorpions", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Seahorses", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Sharks", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Squirrellfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Tangs", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Triggerfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "name": "Wrasse", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" }
         ];
     };
     return FishListService;
@@ -1063,10 +1063,10 @@ module.exports = (__webpack_require__(0))(38);
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-__webpack_require__(33);
-__webpack_require__(44);
+__webpack_require__(37);
+__webpack_require__(49);
 var core_1 = __webpack_require__(1);
-var platform_browser_dynamic_1 = __webpack_require__(42);
+var platform_browser_dynamic_1 = __webpack_require__(47);
 var app_module_client_1 = __webpack_require__(11);
 if (true) {
     module['hot'].accept();
@@ -1103,7 +1103,7 @@ var options = {
   name: ''
 };
 if (true) {
-  var querystring = __webpack_require__(32);
+  var querystring = __webpack_require__(36);
   var overrides = querystring.parse(__resourceQuery.slice(1));
   if (overrides.path) options.path = overrides.path;
   if (overrides.timeout) options.timeout = overrides.timeout;
@@ -1223,11 +1223,11 @@ if (typeof window !== 'undefined') {
 }
 
 function createReporter() {
-  var strip = __webpack_require__(34);
+  var strip = __webpack_require__(38);
 
   var overlay;
   if (typeof document !== 'undefined' && options.overlay) {
-    overlay = __webpack_require__(37);
+    overlay = __webpack_require__(42);
   }
 
   var styles = {
@@ -1280,7 +1280,7 @@ function createReporter() {
   };
 }
 
-var processUpdate = __webpack_require__(38);
+var processUpdate = __webpack_require__(43);
 
 var customHandler;
 var subscribeAllHandler;
@@ -1345,7 +1345,7 @@ if (module) {
   };
 }
 
-/* WEBPACK VAR INJECTION */}.call(exports, "?path=%2F__webpack_hmr", __webpack_require__(39)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, "?path=%2F__webpack_hmr", __webpack_require__(44)(module)))
 
 /***/ }),
 /* 8 */
@@ -1562,8 +1562,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 var fish_list_service_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(1);
-var platform_browser_1 = __webpack_require__(45);
-var forms_1 = __webpack_require__(41);
+var platform_browser_1 = __webpack_require__(50);
+var forms_1 = __webpack_require__(46);
 var http_1 = __webpack_require__(5);
 var app_module_1 = __webpack_require__(12);
 var AppModule = (function () {
@@ -1596,12 +1596,13 @@ exports.AppModule = AppModule;
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
+var fish_thumbnail_component_1 = __webpack_require__(17);
 var fish_list_service_1 = __webpack_require__(2);
 var fish_list_component_1 = __webpack_require__(16);
-var router_1 = __webpack_require__(43);
+var router_1 = __webpack_require__(48);
 var app_component_1 = __webpack_require__(13);
-var navmenu_component_1 = __webpack_require__(18);
-var home_component_1 = __webpack_require__(17);
+var navmenu_component_1 = __webpack_require__(19);
+var home_component_1 = __webpack_require__(18);
 var fetchdata_component_1 = __webpack_require__(15);
 var counter_component_1 = __webpack_require__(14);
 exports.sharedConfig = {
@@ -1612,7 +1613,8 @@ exports.sharedConfig = {
         counter_component_1.CounterComponent,
         fetchdata_component_1.FetchDataComponent,
         home_component_1.HomeComponent,
-        fish_list_component_1.FishListComponent
+        fish_list_component_1.FishListComponent,
+        fish_thumbnail_component_1.FishThumbnailComponent
     ],
     imports: [
         router_1.RouterModule.forRoot([
@@ -1652,8 +1654,8 @@ var AppComponent = (function () {
 AppComponent = __decorate([
     core_1.Component({
         selector: 'app',
-        template: __webpack_require__(24),
-        styles: [__webpack_require__(35)]
+        template: __webpack_require__(27),
+        styles: [__webpack_require__(39)]
     })
 ], AppComponent);
 exports.AppComponent = AppComponent;
@@ -1685,7 +1687,7 @@ var CounterComponent = (function () {
 CounterComponent = __decorate([
     core_1.Component({
         selector: 'counter',
-        template: __webpack_require__(25)
+        template: __webpack_require__(28)
     })
 ], CounterComponent);
 exports.CounterComponent = CounterComponent;
@@ -1724,7 +1726,7 @@ var FetchDataComponent = (function () {
 FetchDataComponent = __decorate([
     core_1.Component({
         selector: 'fetchdata',
-        template: __webpack_require__(26)
+        template: __webpack_require__(29)
     }),
     __param(1, core_1.Inject('ORIGIN_URL')),
     __metadata("design:paramtypes", [http_1.Http, String])
@@ -1762,7 +1764,7 @@ var FishListComponent = (function () {
 FishListComponent = __decorate([
     core_1.Component({
         selector: 'app-fish-list',
-        template: __webpack_require__(27)
+        template: __webpack_require__(30)
     }),
     __metadata("design:paramtypes", [fish_list_service_1.FishListService])
 ], FishListComponent);
@@ -1771,6 +1773,46 @@ exports.FishListComponent = FishListComponent;
 
 /***/ }),
 /* 17 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var fish_1 = __webpack_require__(20);
+var core_1 = __webpack_require__(1);
+var FishThumbnailComponent = (function () {
+    function FishThumbnailComponent() {
+    }
+    FishThumbnailComponent.prototype.ngOnInit = function () {
+    };
+    return FishThumbnailComponent;
+}());
+__decorate([
+    core_1.Input('fish'),
+    __metadata("design:type", fish_1.Fish)
+], FishThumbnailComponent.prototype, "fish", void 0);
+FishThumbnailComponent = __decorate([
+    core_1.Component({
+        selector: 'app-fish-thumbnail',
+        template: __webpack_require__(31),
+        styles: [__webpack_require__(40)]
+    }),
+    __metadata("design:paramtypes", [])
+], FishThumbnailComponent);
+exports.FishThumbnailComponent = FishThumbnailComponent;
+
+
+/***/ }),
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1791,14 +1833,14 @@ var HomeComponent = (function () {
 HomeComponent = __decorate([
     core_1.Component({
         selector: 'home',
-        template: __webpack_require__(28)
+        template: __webpack_require__(32)
     })
 ], HomeComponent);
 exports.HomeComponent = HomeComponent;
 
 
 /***/ }),
-/* 18 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1819,15 +1861,30 @@ var NavMenuComponent = (function () {
 NavMenuComponent = __decorate([
     core_1.Component({
         selector: 'nav-menu',
-        template: __webpack_require__(29),
-        styles: [__webpack_require__(36)]
+        template: __webpack_require__(33),
+        styles: [__webpack_require__(41)]
     })
 ], NavMenuComponent);
 exports.NavMenuComponent = NavMenuComponent;
 
 
 /***/ }),
-/* 19 */
+/* 20 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+var Fish = (function () {
+    function Fish() {
+    }
+    return Fish;
+}());
+exports.Fish = Fish;
+
+
+/***/ }),
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -1841,7 +1898,21 @@ exports.push([module.i, "@media (max-width: 767px) {\r\n    /* On small screens,
 
 
 /***/ }),
-/* 20 */
+/* 22 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(3)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/***/ }),
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -1855,19 +1926,19 @@ exports.push([module.i, "li .glyphicon {\r\n    margin-right: 10px;\r\n}\r\n\r\n
 
 
 /***/ }),
-/* 21 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
-  XmlEntities: __webpack_require__(23),
-  Html4Entities: __webpack_require__(22),
+  XmlEntities: __webpack_require__(26),
+  Html4Entities: __webpack_require__(25),
   Html5Entities: __webpack_require__(4),
   AllHtmlEntities: __webpack_require__(4)
 };
 
 
 /***/ }),
-/* 22 */
+/* 25 */
 /***/ (function(module, exports) {
 
 var HTML_ALPHA = ['apos', 'nbsp', 'iexcl', 'cent', 'pound', 'curren', 'yen', 'brvbar', 'sect', 'uml', 'copy', 'ordf', 'laquo', 'not', 'shy', 'reg', 'macr', 'deg', 'plusmn', 'sup2', 'sup3', 'acute', 'micro', 'para', 'middot', 'cedil', 'sup1', 'ordm', 'raquo', 'frac14', 'frac12', 'frac34', 'iquest', 'Agrave', 'Aacute', 'Acirc', 'Atilde', 'Auml', 'Aring', 'Aelig', 'Ccedil', 'Egrave', 'Eacute', 'Ecirc', 'Euml', 'Igrave', 'Iacute', 'Icirc', 'Iuml', 'ETH', 'Ntilde', 'Ograve', 'Oacute', 'Ocirc', 'Otilde', 'Ouml', 'times', 'Oslash', 'Ugrave', 'Uacute', 'Ucirc', 'Uuml', 'Yacute', 'THORN', 'szlig', 'agrave', 'aacute', 'acirc', 'atilde', 'auml', 'aring', 'aelig', 'ccedil', 'egrave', 'eacute', 'ecirc', 'euml', 'igrave', 'iacute', 'icirc', 'iuml', 'eth', 'ntilde', 'ograve', 'oacute', 'ocirc', 'otilde', 'ouml', 'divide', 'oslash', 'ugrave', 'uacute', 'ucirc', 'uuml', 'yacute', 'thorn', 'yuml', 'quot', 'amp', 'lt', 'gt', 'OElig', 'oelig', 'Scaron', 'scaron', 'Yuml', 'circ', 'tilde', 'ensp', 'emsp', 'thinsp', 'zwnj', 'zwj', 'lrm', 'rlm', 'ndash', 'mdash', 'lsquo', 'rsquo', 'sbquo', 'ldquo', 'rdquo', 'bdquo', 'dagger', 'Dagger', 'permil', 'lsaquo', 'rsaquo', 'euro', 'fnof', 'Alpha', 'Beta', 'Gamma', 'Delta', 'Epsilon', 'Zeta', 'Eta', 'Theta', 'Iota', 'Kappa', 'Lambda', 'Mu', 'Nu', 'Xi', 'Omicron', 'Pi', 'Rho', 'Sigma', 'Tau', 'Upsilon', 'Phi', 'Chi', 'Psi', 'Omega', 'alpha', 'beta', 'gamma', 'delta', 'epsilon', 'zeta', 'eta', 'theta', 'iota', 'kappa', 'lambda', 'mu', 'nu', 'xi', 'omicron', 'pi', 'rho', 'sigmaf', 'sigma', 'tau', 'upsilon', 'phi', 'chi', 'psi', 'omega', 'thetasym', 'upsih', 'piv', 'bull', 'hellip', 'prime', 'Prime', 'oline', 'frasl', 'weierp', 'image', 'real', 'trade', 'alefsym', 'larr', 'uarr', 'rarr', 'darr', 'harr', 'crarr', 'lArr', 'uArr', 'rArr', 'dArr', 'hArr', 'forall', 'part', 'exist', 'empty', 'nabla', 'isin', 'notin', 'ni', 'prod', 'sum', 'minus', 'lowast', 'radic', 'prop', 'infin', 'ang', 'and', 'or', 'cap', 'cup', 'int', 'there4', 'sim', 'cong', 'asymp', 'ne', 'equiv', 'le', 'ge', 'sub', 'sup', 'nsub', 'sube', 'supe', 'oplus', 'otimes', 'perp', 'sdot', 'lceil', 'rceil', 'lfloor', 'rfloor', 'lang', 'rang', 'loz', 'spades', 'clubs', 'hearts', 'diams'];
@@ -2020,7 +2091,7 @@ module.exports = Html4Entities;
 
 
 /***/ }),
-/* 23 */
+/* 26 */
 /***/ (function(module, exports) {
 
 var ALPHA_INDEX = {
@@ -2181,43 +2252,49 @@ module.exports = XmlEntities;
 
 
 /***/ }),
-/* 24 */
+/* 27 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class='container-fluid'>\r\n    <div class='row'>\r\n        <div class='col-sm-3'>\r\n            <nav-menu></nav-menu>\r\n        </div>\r\n        <div class='col-sm-9 body-content'>\r\n            <router-outlet></router-outlet>\r\n        </div>\r\n    </div>\r\n</div>\r\n";
 
 /***/ }),
-/* 25 */
+/* 28 */
 /***/ (function(module, exports) {
 
 module.exports = "<h1>Counter</h1>\r\n\r\n<p>This is a simple example of an Angular component.</p>\r\n\r\n<p>Current count: <strong>{{ currentCount }}</strong></p>\r\n\r\n<button (click)=\"incrementCounter()\">Increment</button>\r\n";
 
 /***/ }),
-/* 26 */
+/* 29 */
 /***/ (function(module, exports) {
 
 module.exports = "<h1>Weather forecast</h1>\r\n\r\n<p>This component demonstrates fetching data from the server.</p>\r\n\r\n<p *ngIf=\"!forecasts\"><em>Loading...</em></p>\r\n\r\n<table class='table' *ngIf=\"forecasts\">\r\n    <thead>\r\n        <tr>\r\n            <th>Date</th>\r\n            <th>Temp. (C)</th>\r\n            <th>Temp. (F)</th>\r\n            <th>Summary</th>\r\n        </tr>\r\n    </thead>\r\n    <tbody>\r\n        <tr *ngFor=\"let forecast of forecasts\">\r\n            <td>{{ forecast.dateFormatted }}</td>\r\n            <td>{{ forecast.temperatureC }}</td>\r\n            <td>{{ forecast.temperatureF }}</td>\r\n            <td>{{ forecast.summary }}</td>\r\n        </tr>\r\n    </tbody>\r\n</table>\r\n";
 
 /***/ }),
-/* 27 */
+/* 30 */
 /***/ (function(module, exports) {
 
-module.exports = "\n\n  <div class=\"col-xs-3\" *ngFor=\"let fish of fishList\">\n    <img class=\"img-thumbnail\" src=\"{{ fish.imageUrl }}\">\n    {{ fish.name }}\n  </div>\n";
+module.exports = "\n<div class=\"row\">\n  <div *ngFor=\"let fish of fishList\">\n    <app-fish-thumbnail [fish]=\"fish\"></app-fish-thumbnail>\n  </div>\n</div>\n";
 
 /***/ }),
-/* 28 */
+/* 31 */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"col-sm-3 col-md-2\">\n  <div class=\"thumbnail\">\n    <img class=\"\" [src]=\"fish.imageUrl\" alt=\"...\">\n    <div class=\"caption\">\n      <h5 class=\"text-center\">{{ fish.name }}</h5>\n    </div>\n  </div>\n</div>";
+
+/***/ }),
+/* 32 */
 /***/ (function(module, exports) {
 
 module.exports = "<h1>Find-A-Fish</h1>\r\n\r\n";
 
 /***/ }),
-/* 29 */
+/* 33 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class='main-nav'>\r\n    <div class='navbar navbar-inverse'>\r\n        <div class='navbar-header'>\r\n            <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>\r\n                <span class='sr-only'>Toggle navigation</span>\r\n                <span class='icon-bar'></span>\r\n                <span class='icon-bar'></span>\r\n                <span class='icon-bar'></span>\r\n            </button>\r\n            <a class='navbar-brand' [routerLink]=\"['/home']\">WebApplicationBasic</a>\r\n        </div>\r\n        <div class='clearfix'></div>\r\n        <div class='navbar-collapse collapse'>\r\n            <ul class='nav navbar-nav'>\r\n                <li [routerLinkActive]=\"['link-active']\">\r\n                    <a [routerLink]=\"['/home']\">\r\n                        <span class='glyphicon glyphicon-home'></span> Home\r\n                    </a>\r\n                </li>\r\n                <li [routerLinkActive]=\"['link-active']\">\r\n                    <a [routerLink]=\"['/counter']\">\r\n                        <span class='glyphicon glyphicon-education'></span> Counter\r\n                    </a>\r\n                </li>\r\n                <li [routerLinkActive]=\"['link-active']\">\r\n                    <a [routerLink]=\"['/fetch-data']\">\r\n                        <span class='glyphicon glyphicon-th-list'></span> Fetch data\r\n                    </a>\r\n                </li>\r\n                <li [routerLinkActive]=\"['link-active']\">\r\n                    <a [routerLink]=\"['/fish-list']\">\r\n                        <span class='glyphicon glyphicon-th-list'></span> Fish\r\n                    </a>\r\n                </li>\r\n            </ul>\r\n        </div>\r\n    </div>\r\n</div>\r\n";
 
 /***/ }),
-/* 30 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2308,7 +2385,7 @@ var isArray = Array.isArray || function (xs) {
 
 
 /***/ }),
-/* 31 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2400,18 +2477,18 @@ var objectKeys = Object.keys || function (obj) {
 
 
 /***/ }),
-/* 32 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-exports.decode = exports.parse = __webpack_require__(30);
-exports.encode = exports.stringify = __webpack_require__(31);
+exports.decode = exports.parse = __webpack_require__(34);
+exports.encode = exports.stringify = __webpack_require__(35);
 
 
 /***/ }),
-/* 33 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(process, global) {/*! *****************************************************************************
@@ -3539,10 +3616,10 @@ var Reflect;
             Function("return this;")());
 })(Reflect || (Reflect = {}));
 //# sourceMappingURL=Reflect.js.map
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(40), __webpack_require__(46)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(45), __webpack_require__(51)))
 
 /***/ }),
-/* 34 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3555,11 +3632,11 @@ module.exports = function (str) {
 
 
 /***/ }),
-/* 35 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(19);
+        var result = __webpack_require__(21);
 
         if (typeof result === "string") {
             module.exports = result;
@@ -3569,11 +3646,11 @@ module.exports = function (str) {
     
 
 /***/ }),
-/* 36 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(20);
+        var result = __webpack_require__(22);
 
         if (typeof result === "string") {
             module.exports = result;
@@ -3583,7 +3660,21 @@ module.exports = function (str) {
     
 
 /***/ }),
-/* 37 */
+/* 41 */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(23);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*eslint-env browser*/
@@ -3627,7 +3718,7 @@ var colors = {
 };
 ansiHTML.setColors(colors);
 
-var Entities = __webpack_require__(21).AllHtmlEntities;
+var Entities = __webpack_require__(24).AllHtmlEntities;
 var entities = new Entities();
 
 exports.showProblems =
@@ -3668,7 +3759,7 @@ function problemType (type) {
 
 
 /***/ }),
-/* 38 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -3806,7 +3897,7 @@ module.exports = function(hash, moduleMap, options) {
 
 
 /***/ }),
-/* 39 */
+/* 44 */
 /***/ (function(module, exports) {
 
 module.exports = function(module) {
@@ -3834,49 +3925,49 @@ module.exports = function(module) {
 
 
 /***/ }),
-/* 40 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(0))(12);
 
 /***/ }),
-/* 41 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(0))(37);
 
 /***/ }),
-/* 42 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(0))(39);
 
 /***/ }),
-/* 43 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(0))(40);
 
 /***/ }),
-/* 44 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(0))(46);
 
 /***/ }),
-/* 45 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(0))(5);
 
 /***/ }),
-/* 46 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(0))(7);
 
 /***/ }),
-/* 47 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(8);
