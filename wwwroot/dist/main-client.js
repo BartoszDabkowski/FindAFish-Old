@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "339ffefd89241dd1e0ed"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "2bf8a0071a51776f248f"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -728,44 +728,48 @@ module.exports = (__webpack_require__(0))(3);
 Object.defineProperty(exports, "__esModule", { value: true });
 var FishListService = (function () {
     function FishListService() {
-    }
-    FishListService.prototype.getFish = function () {
-        return [
-            { "name": "Angel", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Angler", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Anthias", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Basslet", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Blennies", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Boxfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Butterflyfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Cardinalfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Chromis", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Clownfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Damselfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Dartfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Dottyback", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Dragonetes", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Eels", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Filefish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Foxface", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Gobies", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Groupers", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Grunts", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Hawkfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Hogfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Jawfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Lionfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Pipefish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Puffers", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Rays", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Scorpions", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Seahorses", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Sharks", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Squirrellfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Tangs", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Triggerfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "name": "Wrasse", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" }
+        this.fishList = [
+            { "id": 1, "name": "Angel", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 2, "name": "Angler", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 3, "name": "Anthias", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 4, "name": "Basslet", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 5, "name": "Blennies", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 6, "name": "Boxfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 7, "name": "Butterflyfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 8, "name": "Cardinalfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 9, "name": "Chromis", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 10, "name": "Clownfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 11, "name": "Damselfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 12, "name": "Dartfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 13, "name": "Dottyback", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 14, "name": "Dragonetes", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 15, "name": "Eels", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 16, "name": "Filefish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 17, "name": "Foxface", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 18, "name": "Gobies", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 19, "name": "Groupers", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 20, "name": "Grunts", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 21, "name": "Hawkfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 22, "name": "Hogfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 23, "name": "Jawfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 24, "name": "Lionfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 25, "name": "Pipefish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 26, "name": "Puffers", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 27, "name": "Rays", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 28, "name": "Scorpions", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 29, "name": "Seahorses", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 30, "name": "Sharks", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 31, "name": "Squirrellfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 32, "name": "Tangs", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 33, "name": "Triggerfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 34, "name": "Wrasse", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" }
         ];
+    }
+    FishListService.prototype.getFishList = function () {
+        return this.fishList;
+    };
+    FishListService.prototype.getFish = function (id) {
+        return this.fishList[id - 1];
     };
     return FishListService;
 }());
@@ -1596,6 +1600,9 @@ exports.AppModule = AppModule;
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
+var fish_page_component_1 = __webpack_require__(61);
+var side_bar_component_1 = __webpack_require__(57);
+var nav_bar_component_1 = __webpack_require__(53);
 var fish_thumbnail_component_1 = __webpack_require__(17);
 var fish_list_service_1 = __webpack_require__(2);
 var fish_list_component_1 = __webpack_require__(16);
@@ -1609,12 +1616,15 @@ exports.sharedConfig = {
     bootstrap: [app_component_1.AppComponent],
     declarations: [
         app_component_1.AppComponent,
+        nav_bar_component_1.NavBarComponent,
+        side_bar_component_1.SideBarComponent,
         navmenu_component_1.NavMenuComponent,
         counter_component_1.CounterComponent,
         fetchdata_component_1.FetchDataComponent,
         home_component_1.HomeComponent,
         fish_list_component_1.FishListComponent,
-        fish_thumbnail_component_1.FishThumbnailComponent
+        fish_thumbnail_component_1.FishThumbnailComponent,
+        fish_page_component_1.FishPageComponent
     ],
     imports: [
         router_1.RouterModule.forRoot([
@@ -1623,6 +1633,7 @@ exports.sharedConfig = {
             { path: 'counter', component: counter_component_1.CounterComponent },
             { path: 'fetch-data', component: fetchdata_component_1.FetchDataComponent },
             { path: 'fish-list', component: fish_list_component_1.FishListComponent },
+            { path: 'fish-page/:id', component: fish_page_component_1.FishPageComponent },
             { path: '**', redirectTo: 'home' }
         ])
     ],
@@ -1754,8 +1765,8 @@ var fish_list_service_1 = __webpack_require__(2);
 var core_1 = __webpack_require__(1);
 var FishListComponent = (function () {
     function FishListComponent(service) {
-        this.fishList = [];
-        this.fishList = service.getFish();
+        this.service = service;
+        this.fishList = service.getFishList();
     }
     FishListComponent.prototype.ngOnInit = function () {
     };
@@ -2255,7 +2266,7 @@ module.exports = XmlEntities;
 /* 27 */
 /***/ (function(module, exports) {
 
-module.exports = "<div class='container-fluid'>\r\n    <div class='row'>\r\n        <div class='col-sm-3'>\r\n            <nav-menu></nav-menu>\r\n        </div>\r\n        <div class='col-sm-9 body-content'>\r\n            <router-outlet></router-outlet>\r\n        </div>\r\n    </div>\r\n</div>\r\n";
+module.exports = "<div class='container-fluid'>\r\n    <div class='row'>\r\n        <div class='col-sm-3'>\r\n            <nav-menu></nav-menu>\r\n        </div>\r\n        <div class='col-sm-9 body-content'>     \r\n            <router-outlet></router-outlet>\r\n        </div>\r\n    </div>\r\n</div>\r\n";
 
 /***/ }),
 /* 28 */
@@ -2273,13 +2284,13 @@ module.exports = "<h1>Weather forecast</h1>\r\n\r\n<p>This component demonstrate
 /* 30 */
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"\">\n<div class=\"row\">\n  <div *ngFor=\"let fish of fishList\">\n    <app-fish-thumbnail [fish]=\"fish\"></app-fish-thumbnail>\n  </div>\n</div>\n</div>\n";
+module.exports = "\n<div class=\"row\">\n  <div *ngFor=\"let fish of fishList\">\n    <app-fish-thumbnail [fish]=\"fish\"></app-fish-thumbnail>\n  </div>\n</div>\n";
 
 /***/ }),
 /* 31 */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"col-sm-3 col-md-2\">\n  <a class=\"thumbnail\">\n    <img class=\"img-fluid\" [src]=\"fish.imageUrl\" alt=\"...\">\n    <div class=\"caption\">\n      <h5 class=\"text-center\">{{ fish.name }}</h5>\n    </div>\n  </a>\n</div>";
+module.exports = "<div class=\"col-sm-3 col-md-2\">\n  <a class=\"thumbnail\" [routerLink]=\"['/fish-page', fish.id]\">\n    <img class=\"img-fluid\" [src]=\"fish.imageUrl\" alt=\"...\">\n    <div class=\"caption\">\n      <h5 class=\"text-center\">{{ fish.name }}</h5>\n    </div>\n  </a>\n</div>";
 
 /***/ }),
 /* 32 */
@@ -2291,7 +2302,7 @@ module.exports = "<h1>Find-A-Fish</h1>\r\n\r\n";
 /* 33 */
 /***/ (function(module, exports) {
 
-module.exports = "<div class='main-nav'>\r\n    <div class='navbar navbar-inverse'>\r\n        <div class='navbar-header'>\r\n            <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>\r\n                <span class='sr-only'>Toggle navigation</span>\r\n                <span class='icon-bar'></span>\r\n                <span class='icon-bar'></span>\r\n                <span class='icon-bar'></span>\r\n            </button>\r\n            <a class='navbar-brand' [routerLink]=\"['/home']\">WebApplicationBasic</a>\r\n        </div>\r\n        <div class='clearfix'></div>\r\n        <div class='navbar-collapse collapse'>\r\n            <ul class='nav navbar-nav'>\r\n                <li [routerLinkActive]=\"['link-active']\">\r\n                    <a [routerLink]=\"['/home']\">\r\n                        <span class='glyphicon glyphicon-home'></span> Home\r\n                    </a>\r\n                </li>\r\n                <li [routerLinkActive]=\"['link-active']\">\r\n                    <a [routerLink]=\"['/counter']\">\r\n                        <span class='glyphicon glyphicon-education'></span> Counter\r\n                    </a>\r\n                </li>\r\n                <li [routerLinkActive]=\"['link-active']\">\r\n                    <a [routerLink]=\"['/fetch-data']\">\r\n                        <span class='glyphicon glyphicon-th-list'></span> Fetch data\r\n                    </a>\r\n                </li>\r\n                <li [routerLinkActive]=\"['link-active']\">\r\n                    <a [routerLink]=\"['/fish-list']\">\r\n                        <span class='glyphicon glyphicon-th-list'></span> Fish\r\n                    </a>\r\n                </li>\r\n            </ul>\r\n        </div>\r\n    </div>\r\n</div>\r\n";
+module.exports = "<div class='main-nav navbar-hide'>\r\n    <div class='navbar navbar-inverse'>\r\n        <div class='navbar-header'>\r\n            <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>\r\n                <span class='sr-only'>Toggle navigation</span>\r\n                <span class='icon-bar'></span>\r\n                <span class='icon-bar'></span>\r\n                <span class='icon-bar'></span>\r\n            </button>\r\n            <a class='navbar-brand' [routerLink]=\"['/home']\">WebApplicationBasic</a>\r\n        </div>\r\n        <div class='clearfix'></div>\r\n        <div class='navbar-collapse collapse'>\r\n            <ul class='nav navbar-nav'>\r\n                <li [routerLinkActive]=\"['link-active']\">\r\n                    <a [routerLink]=\"['/home']\">\r\n                        <span class='glyphicon glyphicon-home'></span> Home\r\n                    </a>\r\n                </li>\r\n                <li [routerLinkActive]=\"['link-active']\">\r\n                    <a [routerLink]=\"['/counter']\">\r\n                        <span class='glyphicon glyphicon-education'></span> Counter\r\n                    </a>\r\n                </li>\r\n                <li [routerLinkActive]=\"['link-active']\">\r\n                    <a [routerLink]=\"['/fetch-data']\">\r\n                        <span class='glyphicon glyphicon-th-list'></span> Fetch data\r\n                    </a>\r\n                </li>\r\n                <li [routerLinkActive]=\"['link-active']\">\r\n                    <a [routerLink]=\"['/fish-list']\">\r\n                        <span class='glyphicon glyphicon-th-list'></span> Fish\r\n                    </a>\r\n                </li>\r\n            </ul>\r\n        </div>\r\n    </div>\r\n</div>\r\n";
 
 /***/ }),
 /* 34 */
@@ -3974,6 +3985,222 @@ __webpack_require__(8);
 __webpack_require__(7);
 module.exports = __webpack_require__(6);
 
+
+/***/ }),
+/* 53 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = __webpack_require__(1);
+var NavBarComponent = (function () {
+    function NavBarComponent() {
+    }
+    NavBarComponent.prototype.ngOnInit = function () {
+    };
+    return NavBarComponent;
+}());
+NavBarComponent = __decorate([
+    core_1.Component({
+        selector: 'nav-bar',
+        template: __webpack_require__(55),
+        styles: [__webpack_require__(56)]
+    }),
+    __metadata("design:paramtypes", [])
+], NavBarComponent);
+exports.NavBarComponent = NavBarComponent;
+
+
+/***/ }),
+/* 54 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(3)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/***/ }),
+/* 55 */
+/***/ (function(module, exports) {
+
+module.exports = "\n<nav class=\"navbar navbar-inverse navbar-fixed-top\">\n  <div class=\"container\">\n    <!-- Brand and toggle get grouped for better mobile display -->\n    <div class=\"navbar-header\">\n      <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\" aria-expanded=\"false\">\n        <span class=\"sr-only\">Toggle navigation</span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n      </button>\n      <a class=\"navbar-brand\" href=\"#\">Brand</a>\n    </div>\n\n    <!-- Collect the nav links, forms, and other content for toggling -->\n    <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n      <ul class=\"nav navbar-nav\">\n        <li class=\"active\"><a href=\"#\">Link <span class=\"sr-only\">(current)</span></a></li>\n        <li><a href=\"#\">Link</a></li>\n        <li class=\"dropdown\">\n          <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">Dropdown <span class=\"caret\"></span></a>\n          <ul class=\"dropdown-menu\">\n            <li><a href=\"#\">Action</a></li>\n            <li><a href=\"#\">Another action</a></li>\n            <li><a href=\"#\">Something else here</a></li>\n            <li role=\"separator\" class=\"divider\"></li>\n            <li><a href=\"#\">Separated link</a></li>\n            <li role=\"separator\" class=\"divider\"></li>\n            <li><a href=\"#\">One more separated link</a></li>\n          </ul>\n        </li>\n      </ul>\n      <form class=\"navbar-form navbar-left\">\n        <div class=\"form-group\">\n          <input type=\"text\" class=\"form-control\" placeholder=\"Search\">\n        </div>\n        <button type=\"submit\" class=\"btn btn-default\">Submit</button>\n      </form>\n      <ul class=\"nav navbar-nav navbar-right\">\n        <li><a href=\"#\">Link</a></li>\n        <li class=\"dropdown\">\n          <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">Dropdown <span class=\"caret\"></span></a>\n          <ul class=\"dropdown-menu\">\n            <li><a href=\"#\">Action</a></li>\n            <li><a href=\"#\">Another action</a></li>\n            <li><a href=\"#\">Something else here</a></li>\n            <li role=\"separator\" class=\"divider\"></li>\n            <li><a href=\"#\">Separated link</a></li>\n          </ul>\n        </li>\n      </ul>\n    </div><!-- /.navbar-collapse -->\n  </div><!-- /.container-fluid -->\n</nav>\n";
+
+/***/ }),
+/* 56 */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(54);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+/* 57 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = __webpack_require__(1);
+var SideBarComponent = (function () {
+    function SideBarComponent() {
+    }
+    SideBarComponent.prototype.ngOnInit = function () {
+    };
+    return SideBarComponent;
+}());
+SideBarComponent = __decorate([
+    core_1.Component({
+        selector: 'side-bar',
+        template: __webpack_require__(59),
+        styles: [__webpack_require__(60)]
+    }),
+    __metadata("design:paramtypes", [])
+], SideBarComponent);
+exports.SideBarComponent = SideBarComponent;
+
+
+/***/ }),
+/* 58 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(3)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".nav{\n    background-color: #f1f1f1;\n}\n\n.side-bar {\n    position: fixed;\n}", ""]);
+
+// exports
+
+
+/***/ }),
+/* 59 */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"side-bar\">\n<ul class=\"nav nav-pills nav-stacked\">\n  <li [routerLinkActive]=\"['link-active']\">\n      <a [routerLink]=\"['/home']\">\n          <span class='glyphicon glyphicon-home'></span> Home\n      </a>\n  </li>\n  <li [routerLinkActive]=\"['link-active']\">\n      <a [routerLink]=\"['/counter']\">\n          <span class='glyphicon glyphicon-education'></span> Counter\n      </a>\n  </li>\n  <li [routerLinkActive]=\"['link-active']\">\n      <a [routerLink]=\"['/fetch-data']\">\n          <span class='glyphicon glyphicon-th-list'></span> Fetch data\n      </a>\n  </li>\n  <li [routerLinkActive]=\"['link-active']\">\n      <a [routerLink]=\"['/fish-list']\">\n          <span class='glyphicon glyphicon-th-list'></span> Fish\n      </a>\n  </li>\n</ul>\n</div>";
+
+/***/ }),
+/* 60 */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(58);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+/* 61 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var fish_list_service_1 = __webpack_require__(2);
+var core_1 = __webpack_require__(1);
+var router_1 = __webpack_require__(48);
+var FishPageComponent = (function () {
+    function FishPageComponent(route, service) {
+        this.route = route;
+        this.service = service;
+    }
+    FishPageComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.route.paramMap.subscribe(function (params) {
+            var id = +params.get('id');
+            _this.fish = _this.service.getFish(id);
+        });
+    };
+    return FishPageComponent;
+}());
+FishPageComponent = __decorate([
+    core_1.Component({
+        selector: 'fish-page',
+        template: __webpack_require__(63),
+        styles: [__webpack_require__(64)]
+    }),
+    __metadata("design:paramtypes", [router_1.ActivatedRoute, fish_list_service_1.FishListService])
+], FishPageComponent);
+exports.FishPageComponent = FishPageComponent;
+
+
+/***/ }),
+/* 62 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(3)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/***/ }),
+/* 63 */
+/***/ (function(module, exports) {
+
+module.exports = "<h2>{{fish.name}}</h2>\n";
+
+/***/ }),
+/* 64 */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(62);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
 
 /***/ })
 /******/ ]);

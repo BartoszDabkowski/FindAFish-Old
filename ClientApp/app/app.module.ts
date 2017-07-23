@@ -1,3 +1,6 @@
+import { FishPageComponent } from './components/fish-page/fish-page.component';
+import { SideBarComponent } from './components/side-bar/side-bar.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { FishThumbnailComponent } from './components/fish-thumbnail/fish-thumbnail.component';
 import { FishListService } from './components/fish-list/fish-list.service';
 import { FishListComponent } from './components/fish-list/fish-list.component';
@@ -14,12 +17,15 @@ export const sharedConfig: NgModule = {
     bootstrap: [ AppComponent ],
     declarations: [
         AppComponent,
+        NavBarComponent,
+        SideBarComponent,
         NavMenuComponent,
         CounterComponent,
         FetchDataComponent,
         HomeComponent,
         FishListComponent,
-        FishThumbnailComponent
+        FishThumbnailComponent,
+        FishPageComponent
     ],
     imports: [
         RouterModule.forRoot([
@@ -28,6 +34,7 @@ export const sharedConfig: NgModule = {
             { path: 'counter', component: CounterComponent },
             { path: 'fetch-data', component: FetchDataComponent },
             { path: 'fish-list', component: FishListComponent },
+            { path: 'fish-page/:id', component: FishPageComponent },
             { path: '**', redirectTo: 'home' }
         ])
     ],
