@@ -34,7 +34,7 @@ export const sharedConfig: NgModule = {
             { path: 'counter', component: CounterComponent },
             { path: 'fetch-data', component: FetchDataComponent },
             { path: 'fish-list', component: FishListComponent },
-            { path: 'fish-page/:id', component: FishPageComponent },
+            { path: 'fish-page/:id/:species', component: FishPageComponent },
             { path: '**', redirectTo: 'home' }
         ])
     ],

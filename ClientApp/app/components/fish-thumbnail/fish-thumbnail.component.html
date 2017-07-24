@@ -1,5 +1,5 @@
 <div class="col-sm-3 col-md-2">
-  <a class="thumbnail" [routerLink]="['/fish-page', fish.id]">
+  <a class="thumbnail" [routerLink]="['/fish-page', fish.id, fish.name]">
     <img class="img-fluid" [src]="fish.imageUrl" alt="...">
     <div class="caption">
       <h5 class="text-center">{{ fish.name }}</h5>
