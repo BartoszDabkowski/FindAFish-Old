@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "1935dd8bf19469320af0"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "6667e19ad0f2ac4bbd71"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -1607,14 +1607,13 @@ exports.AppModule = AppModule;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var fish_page_component_1 = __webpack_require__(18);
-var side_bar_component_1 = __webpack_require__(23);
+var sidebar_component_1 = __webpack_require__(65);
 var nav_bar_component_1 = __webpack_require__(21);
 var fish_thumbnail_component_1 = __webpack_require__(19);
 var fish_list_service_1 = __webpack_require__(3);
 var fish_list_component_1 = __webpack_require__(17);
 var router_1 = __webpack_require__(6);
 var app_component_1 = __webpack_require__(14);
-var navmenu_component_1 = __webpack_require__(22);
 var home_component_1 = __webpack_require__(20);
 var fetchdata_component_1 = __webpack_require__(16);
 var counter_component_1 = __webpack_require__(15);
@@ -1623,8 +1622,7 @@ exports.sharedConfig = {
     declarations: [
         app_component_1.AppComponent,
         nav_bar_component_1.NavBarComponent,
-        side_bar_component_1.SideBarComponent,
-        navmenu_component_1.NavMenuComponent,
+        sidebar_component_1.SideBarComponent,
         counter_component_1.CounterComponent,
         fetchdata_component_1.FetchDataComponent,
         home_component_1.HomeComponent,
@@ -1936,70 +1934,8 @@ exports.NavBarComponent = NavBarComponent;
 
 
 /***/ }),
-/* 22 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(0);
-var NavMenuComponent = (function () {
-    function NavMenuComponent() {
-    }
-    return NavMenuComponent;
-}());
-NavMenuComponent = __decorate([
-    core_1.Component({
-        selector: 'nav-menu',
-        template: __webpack_require__(42),
-        styles: [__webpack_require__(53)]
-    })
-], NavMenuComponent);
-exports.NavMenuComponent = NavMenuComponent;
-
-
-/***/ }),
-/* 23 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(0);
-var SideBarComponent = (function () {
-    function SideBarComponent() {
-    }
-    SideBarComponent.prototype.ngOnInit = function () {
-    };
-    return SideBarComponent;
-}());
-SideBarComponent = __decorate([
-    core_1.Component({
-        selector: 'side-bar',
-        template: __webpack_require__(43),
-        styles: [__webpack_require__(54)]
-    }),
-    __metadata("design:paramtypes", [])
-], SideBarComponent);
-exports.SideBarComponent = SideBarComponent;
-
-
-/***/ }),
+/* 22 */,
+/* 23 */,
 /* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2071,34 +2007,8 @@ exports.push([module.i, ".nav-bar{\n    padding-bottom: 75px;\n}\n\n.btn-custom{
 
 
 /***/ }),
-/* 29 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(2)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, "li .glyphicon {\r\n    margin-right: 10px;\r\n}\r\n\r\n/* Highlighting rules for nav menu items */\r\nli.link-active a,\r\nli.link-active a:hover,\r\nli.link-active a:focus {\r\n    background-color: #4189C7;\r\n    color: whitesmoke;\r\n}\r\na{\r\n    color: white;\r\n}\r\n\r\n/* Keep the nav menu independent of scrolling and on top of other items */\r\n.main-nav {\r\n    position: fixed;\r\n    top: 0;\r\n    left: 0;\r\n    right: 0;\r\n    z-index: 1;\r\n}\r\n\r\n@media (min-width: 768px) {\r\n    /* On small screens, convert the nav menu to a vertical sidebar */\r\n    .main-nav {\r\n        height: 100%;\r\n        width: calc(100/6 * 1%);\r\n    }\r\n    .navbar {\r\n        border-radius: 0px;\r\n        border-width: 0px;\r\n        height: 100%;\r\n    }\r\n    .navbar-header {\r\n        float: none;\r\n    }\r\n    .navbar-collapse {\r\n        border-top: 1px solid #444;\r\n        padding: 0px;\r\n    }\r\n    .navbar ul {\r\n        float: none;\r\n    }\r\n    .navbar li {\r\n        float: none;\r\n        font-size: 15px;\r\n        margin: 6px;\r\n    }\r\n    .navbar li a {\r\n        padding: 10px 16px;\r\n        border-radius: 4px;\r\n    }\r\n    .nav-pills a {\r\n        /* If a menu item's text is too long, truncate it */\r\n        width: 100%;\r\n        white-space: nowrap;\r\n        overflow: hidden;\r\n        text-overflow: ellipsis;\r\n    }\r\n}\r\n", ""]);
-
-// exports
-
-
-/***/ }),
-/* 30 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(2)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, "#wrapper {\n  padding-left: 250px;\n  transition: all 0.4s ease 0s;\n}\n\n#sidebar-wrapper {\n  margin-left: -250px;\n  left: 250px;\n  width: 250px;\n  background: #f1f1f1;\n  position: fixed;\n  height: 100%;\n  overflow-y: auto;\n  z-index: 1000;\n  transition: all 0.4s ease 0s;\n}\n\n#page-content-wrapper {\n  width: 100%;\n}\n\n.sidebar-nav {\n  position: absolute;\n  top: 0;\n  width: 250px;\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n@media (max-width:767px) {\n\n    #wrapper {\n      padding-left: 0;\n    }\n\n    #sidebar-wrapper {\n      left: 0;\n    }\n\n    #wrapper.active {\n      position: relative;\n      left: 250px;\n    }\n\n    #wrapper.active #sidebar-wrapper {\n      left: 250px;\n      width: 250px;\n      transition: all 0.4s ease 0s;\n    }\n\n}", ""]);
-
-// exports
-
-
-/***/ }),
+/* 29 */,
+/* 30 */,
 /* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2428,7 +2338,7 @@ module.exports = XmlEntities;
 /* 34 */
 /***/ (function(module, exports) {
 
-module.exports = "<nav-bar></nav-bar>  \r\n<div class=\"app-body\">\r\n    <div class='row'>\r\n        <div class='col-sm-2'>\r\n            <nav-menu></nav-menu>\r\n        </div>\r\n        <div class='col-sm-10'>  \r\n            <div class=\"app-margin-top\">\r\n                <router-outlet></router-outlet>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n";
+module.exports = "<nav-bar></nav-bar>  \r\n<div class=\"app-body\">\r\n    <div class=\"container-fluid\">\r\n    <div class='row'>\r\n        <div class='col-sm-2'>\r\n            <sidebar></sidebar>\r\n        </div>\r\n        <div class='col-sm-10'>  \r\n            <div class=\"app-margin-top\">\r\n                <router-outlet></router-outlet>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n</div>\r\n";
 
 /***/ }),
 /* 35 */
@@ -2473,18 +2383,8 @@ module.exports = "<h1>Find-A-Fish</h1>\r\n\r\n";
 module.exports = "<nav class=\"navbar navbar-toggleable-md navbar-inverse bg-inverse bg-faded fixed-top\">\n  <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n  <a class=\"navbar-brand\" href=\"#\">Navbar</a>\n\n  <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n    <ul class=\"navbar-nav mr-auto\">\n      <li class=\"nav-item active\">\n        <a class=\"nav-link\" href=\"#\">Home <span class=\"sr-only\">(current)</span></a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" href=\"#\">Link</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link disabled\" href=\"#\">Disabled</a>\n      </li>\n    </ul>\n    <form class=\"form-inline my-2 my-lg-0\">\n      <input class=\"form-control mr-sm-2\" type=\"text\" placeholder=\"Search\">\n      <button class=\"btn btn-outline-success my-2 my-sm-0\" type=\"submit\">Search</button>\n    </form>\n  </div>\n</nav>";
 
 /***/ }),
-/* 42 */
-/***/ (function(module, exports) {
-
-module.exports = "\r\n\r\n<ul class=\"nav nav-pills bg-inverse flex-column\">\r\n  <li class=\"nav-item\" [routerLinkActive]=\"['link-active']\">\r\n    <a class=\"nav-link\" [routerLink]=\"['/home']\">Home</a>\r\n  </li>\r\n  <li class=\"nav-item\" [routerLinkActive]=\"['link-active']\">\r\n    <a class=\"nav-link\" [routerLink]=\"['/counter']\">Counter</a>\r\n  </li>\r\n  <li class=\"nav-item\" [routerLinkActive]=\"['link-active']\">\r\n    <a class=\"nav-link\" [routerLink]=\"['/fetch-data']\">Fetch Data</a>\r\n  </li>\r\n  <li class=\"nav-item\" [routerLinkActive]=\"['link-active']\">\r\n    <a class=\"nav-link\" [routerLink]=\"['/fish-list']\">Fish List</a>\r\n  </li>\r\n</ul>\r\n";
-
-/***/ }),
-/* 43 */
-/***/ (function(module, exports) {
-
-module.exports = "<div id=\"sidebar-wrapper\">\n    <ul class=\"nav nav-pills nav-stacked\">\n        <li [routerLinkActive]=\"['link-active']\">\n            <a [routerLink]=\"['/home']\">\n                <span class='glyphicon glyphicon-home'></span> Home\n            </a>\n        </li>\n        <li [routerLinkActive]=\"['link-active']\">\n            <a [routerLink]=\"['/counter']\">\n                <span class='glyphicon glyphicon-education'></span> Counter\n            </a>\n        </li>\n        <li [routerLinkActive]=\"['link-active']\">\n            <a [routerLink]=\"['/fetch-data']\">\n                <span class='glyphicon glyphicon-th-list'></span> Fetch data\n            </a>\n        </li>\n        <li [routerLinkActive]=\"['link-active']\">\n            <a [routerLink]=\"['/fish-list']\">\n                <span class='glyphicon glyphicon-th-list'></span> Fish\n            </a>\n        </li>\n    </ul>\n</div>\n";
-
-/***/ }),
+/* 42 */,
+/* 43 */,
 /* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3879,34 +3779,8 @@ module.exports = function (str) {
     
 
 /***/ }),
-/* 53 */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-        var result = __webpack_require__(29);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
-
-/***/ }),
-/* 54 */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-        var result = __webpack_require__(30);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
-
-/***/ }),
+/* 53 */,
+/* 54 */,
 /* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4201,6 +4075,69 @@ __webpack_require__(9);
 __webpack_require__(8);
 module.exports = __webpack_require__(7);
 
+
+/***/ }),
+/* 65 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = __webpack_require__(0);
+var SideBarComponent = (function () {
+    function SideBarComponent() {
+    }
+    return SideBarComponent;
+}());
+SideBarComponent = __decorate([
+    core_1.Component({
+        selector: 'sidebar',
+        template: __webpack_require__(67),
+        styles: [__webpack_require__(68)]
+    })
+], SideBarComponent);
+exports.SideBarComponent = SideBarComponent;
+
+
+/***/ }),
+/* 66 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(2)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "li .glyphicon {\r\n    margin-right: 10px;\r\n}\r\n\r\n/* Highlighting rules for nav menu items */\r\nli.link-active a,\r\nli.link-active a:hover,\r\nli.link-active a:focus {\r\n    background-color: #4189C7;\r\n    color: whitesmoke;\r\n}\r\na{\r\n    color: white;\r\n}\r\n\r\n/* Keep the nav menu independent of scrolling and on top of other items */\r\n.main-nav {\r\n    position: fixed;\r\n    top: 1;\r\n    left: 0;\r\n    right: 0;\r\n    z-index: 1;\r\n}\r\n\r\n@media (min-width: 768px) {\r\n    /* On small screens, convert the nav menu to a vertical sidebar */\r\n    .main-nav {\r\n        height: 100%;\r\n        width: calc(100/6 * 1%);\r\n    }\r\n    .navbar {\r\n        border-radius: 0px;\r\n        border-width: 0px;\r\n        height: 100%;\r\n    }\r\n    .navbar-header {\r\n        float: none;\r\n    }\r\n    .navbar-collapse {\r\n        border-top: 1px solid #444;\r\n        padding: 0px;\r\n    }\r\n    .navbar ul {\r\n        float: none;\r\n    }\r\n    .navbar li {\r\n        float: none;\r\n        font-size: 15px;\r\n        margin: 6px;\r\n    }\r\n    .navbar li a {\r\n        padding: 10px 16px;\r\n        border-radius: 4px;\r\n    }\r\n    .nav-pills a {\r\n        /* If a menu item's text is too long, truncate it */\r\n        width: 100%;\r\n        white-space: nowrap;\r\n        overflow: hidden;\r\n        text-overflow: ellipsis;\r\n    }\r\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 67 */
+/***/ (function(module, exports) {
+
+module.exports = "\r\n<div class=\"main-nav\">\r\n<ul class=\"nav nav-pills bg-inverse flex-column\">\r\n  <li class=\"nav-item\" [routerLinkActive]=\"['link-active']\">\r\n    <a class=\"nav-link\" [routerLink]=\"['/home']\">Home</a>\r\n  </li>\r\n  <li class=\"nav-item\" [routerLinkActive]=\"['link-active']\">\r\n    <a class=\"nav-link\" [routerLink]=\"['/counter']\">Counter</a>\r\n  </li>\r\n  <li class=\"nav-item\" [routerLinkActive]=\"['link-active']\">\r\n    <a class=\"nav-link\" [routerLink]=\"['/fetch-data']\">Fetch Data</a>\r\n  </li>\r\n  <li class=\"nav-item\" [routerLinkActive]=\"['link-active']\">\r\n    <a class=\"nav-link\" [routerLink]=\"['/fish-list']\">Fish List</a>\r\n  </li>\r\n</ul>\r\n</div>";
+
+/***/ }),
+/* 68 */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(66);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
 
 /***/ })
 /******/ ]);

@@ -16,7 +16,7 @@ a{
 /* Keep the nav menu independent of scrolling and on top of other items */
 .main-nav {
     position: fixed;
-    top: 0;
+    top: 1;
     left: 0;
     right: 0;
     z-index: 1;

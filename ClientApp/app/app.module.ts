@@ -1,5 +1,5 @@
 import { FishPageComponent } from './components/fish-page/fish-page.component';
-import { SideBarComponent } from './components/side-bar/side-bar.component';
+import { SideBarComponent } from './components/sidebar/sidebar.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { FishThumbnailComponent } from './components/fish-thumbnail/fish-thumbnail.component';
 import { FishListService } from './components/fish-list/fish-list.service';
@@ -8,7 +8,6 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './components/app/app.component'
-import { NavMenuComponent } from './components/navmenu/navmenu.component';
 import { HomeComponent } from './components/home/home.component';
 import { FetchDataComponent } from './components/fetchdata/fetchdata.component';
 import { CounterComponent } from './components/counter/counter.component';
@@ -19,7 +18,6 @@ export const sharedConfig: NgModule = {
         AppComponent,
         NavBarComponent,
         SideBarComponent,
-        NavMenuComponent,
         CounterComponent,
         FetchDataComponent,
         HomeComponent,
