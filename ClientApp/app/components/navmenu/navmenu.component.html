@@ -1,32 +1,16 @@
-<div class='main-nav navbar-hide'>
-    <div class='navbar navbar-inverse'>
-        <div class='navbar-header'>
-            <a class='navbar-brand' [routerLink]="['/home']"></a>
-        </div>
-        <div class='clearfix'></div>
-        <div class='navbar-collapse collapse'>
-            <ul class='nav navbar-nav'>
-                <li [routerLinkActive]="['link-active']">
-                    <a [routerLink]="['/home']">
-                        <span class='glyphicon glyphicon-home'></span> Home
-                    </a>
-                </li>
-                <li [routerLinkActive]="['link-active']">
-                    <a [routerLink]="['/counter']">
-                        <span class='glyphicon glyphicon-education'></span> Counter
-                    </a>
-                </li>
-                <li [routerLinkActive]="['link-active']">
-                    <a [routerLink]="['/fetch-data']">
-                        <span class='glyphicon glyphicon-th-list'></span> Fetch data
-                    </a>
-                </li>
-                <li [routerLinkActive]="['link-active']">
-                    <a [routerLink]="['/fish-list']">
-                        <span class='glyphicon glyphicon-th-list'></span> Fish
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
+
+
+<ul class="nav nav-pills bg-inverse flex-column">
+  <li class="nav-item" [routerLinkActive]="['link-active']">
+    <a class="nav-link" [routerLink]="['/home']">Home</a>
+  </li>
+  <li class="nav-item" [routerLinkActive]="['link-active']">
+    <a class="nav-link" [routerLink]="['/counter']">Counter</a>
+  </li>
+  <li class="nav-item" [routerLinkActive]="['link-active']">
+    <a class="nav-link" [routerLink]="['/fetch-data']">Fetch Data</a>
+  </li>
+  <li class="nav-item" [routerLinkActive]="['link-active']">
+    <a class="nav-link" [routerLink]="['/fish-list']">Fish List</a>
+  </li>
+</ul>
