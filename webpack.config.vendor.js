@@ -26,7 +26,7 @@ module.exports = (env) => {
                 '@angular/platform-browser-dynamic',
                 '@angular/router',
                 'bootstrap',
-                'bootstrap/dist/css/bootstrap.css',
+                'bootstrap/scss/bootstrap.scss',
                 'es6-shim',
                 'es6-promise',
                 'event-source-polyfill',
@@ -51,7 +51,14 @@ module.exports = (env) => {
         output: { path: path.join(__dirname, 'wwwroot', 'dist') },
         module: {
             rules: [
-                { test: /\.css(\?|$)/, use: extractCSS.extract({ use: isDevBuild ? 'css-loader' : 'css-loader?minimize' }) }
+                { test: /\.css(\?|$)/, use: extractCSS.extract({ use: isDevBuild ? 'css-loader' : 'css-loader?minimize' }) },
+                { test: /\.scss$/, 
+                    use: ExtractTextPlugin.extract({
+                        fallback: 'style-loader',
+                        use:['css-loader','sass-loader'],
+                        publicPath: 'dist'
+                    })
+                }
             ]
         },
         plugins: [
@@ -73,14 +80,24 @@ module.exports = (env) => {
             libraryTarget: 'commonjs2',
         },
         module: {
-            rules: [ { test: /\.css(\?|$)/, use: ['to-string-loader', isDevBuild ? 'css-loader' : 'css-loader?minimize' ] } ]
+            rules: [ 
+                { test: /\.css(\?|$)/, use: ['to-string-loader', isDevBuild ? 'css-loader' : 'css-loader?minimize' ] },
+                { test: /\.scss$/, 
+                    use: ExtractTextPlugin.extract({
+                        fallback: 'style-loader',
+                        use:['css-loader','sass-loader'],
+                        publicPath: 'dist'
+                    })
+                }
+             ]
         },
         entry: { vendor: ['aspnet-prerendering'] },
         plugins: [
             new webpack.DllPlugin({
                 path: path.join(__dirname, 'ClientApp', 'dist', '[name]-manifest.json'),
                 name: '[name]_[hash]'
-            })
+            }),
+            new ExtractTextPlugin('bootstrap4Styles.css')
         ]
     });
 

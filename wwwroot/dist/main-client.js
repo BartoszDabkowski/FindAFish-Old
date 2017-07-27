@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "ee797b05ac85089d10b9"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "564bef52c3f735be2fed"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -704,80 +704,23 @@
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return hotCreateRequire(52)(__webpack_require__.s = 52);
+/******/ 	return hotCreateRequire(64)(__webpack_require__.s = 64);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = vendor_b7199ba5a0e681456630;
+module.exports = (__webpack_require__(1))(2);
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-module.exports = (__webpack_require__(0))(3);
+module.exports = vendor_9edc70e7fc96ffc63554;
 
 /***/ }),
 /* 2 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-var FishListService = (function () {
-    function FishListService() {
-        this.fishList = [
-            { "id": 1, "name": "Angel", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 2, "name": "Angler", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 3, "name": "Anthias", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 4, "name": "Basslet", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 5, "name": "Blennies", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 6, "name": "Boxfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 7, "name": "Butterflyfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 8, "name": "Cardinalfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 9, "name": "Chromis", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 10, "name": "Clownfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 11, "name": "Damselfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 12, "name": "Dartfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 13, "name": "Dottyback", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 14, "name": "Dragonetes", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 15, "name": "Eels", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 16, "name": "Filefish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 17, "name": "Foxface", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 18, "name": "Gobies", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 19, "name": "Groupers", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 20, "name": "Grunts", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 21, "name": "Hawkfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 22, "name": "Hogfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 23, "name": "Jawfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 24, "name": "Lionfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 25, "name": "Pipefish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 26, "name": "Puffers", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 27, "name": "Rays", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 28, "name": "Scorpions", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 29, "name": "Seahorses", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 30, "name": "Sharks", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 31, "name": "Squirrellfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 32, "name": "Tangs", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 33, "name": "Triggerfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 34, "name": "Wrasse", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" }
-        ];
-    }
-    FishListService.prototype.getFishList = function () {
-        return this.fishList;
-    };
-    FishListService.prototype.getFish = function (id) {
-        return this.fishList[id - 1];
-    };
-    return FishListService;
-}());
-exports.FishListService = FishListService;
-
-
-/***/ }),
-/* 3 */
 /***/ (function(module, exports) {
 
 /*
@@ -856,6 +799,63 @@ function toComment(sourceMap) {
 
 	return '/*# ' + data + ' */';
 }
+
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+var FishListService = (function () {
+    function FishListService() {
+        this.fishList = [
+            { "id": 1, "name": "Angel", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 2, "name": "Angler", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 3, "name": "Anthias", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 4, "name": "Basslet", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 5, "name": "Blennies", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 6, "name": "Boxfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 7, "name": "Butterflyfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 8, "name": "Cardinalfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 9, "name": "Chromis", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 10, "name": "Clownfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 11, "name": "Damselfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 12, "name": "Dartfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 13, "name": "Dottyback", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 14, "name": "Dragonetes", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 15, "name": "Eels", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 16, "name": "Filefish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 17, "name": "Foxface", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 18, "name": "Gobies", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 19, "name": "Groupers", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 20, "name": "Grunts", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 21, "name": "Hawkfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 22, "name": "Hogfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 23, "name": "Jawfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 24, "name": "Lionfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 25, "name": "Pipefish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 26, "name": "Puffers", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 27, "name": "Rays", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 28, "name": "Scorpions", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 29, "name": "Seahorses", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 30, "name": "Sharks", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 31, "name": "Squirrellfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 32, "name": "Tangs", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 33, "name": "Triggerfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
+            { "id": 34, "name": "Wrasse", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" }
+        ];
+    }
+    FishListService.prototype.getFishList = function () {
+        return this.fishList;
+    };
+    FishListService.prototype.getFish = function (id) {
+        return this.fishList[id - 1];
+    };
+    return FishListService;
+}());
+exports.FishListService = FishListService;
 
 
 /***/ }),
@@ -1058,20 +1058,26 @@ module.exports = Html5Entities;
 /* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(0))(38);
+module.exports = (__webpack_require__(1))(38);
 
 /***/ }),
 /* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = (__webpack_require__(1))(40);
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-__webpack_require__(37);
-__webpack_require__(49);
-var core_1 = __webpack_require__(1);
-var platform_browser_dynamic_1 = __webpack_require__(47);
-var app_module_client_1 = __webpack_require__(11);
+__webpack_require__(47);
+__webpack_require__(62);
+var core_1 = __webpack_require__(0);
+var platform_browser_dynamic_1 = __webpack_require__(60);
+var app_module_client_1 = __webpack_require__(12);
 if (true) {
     module['hot'].accept();
     module['hot'].dispose(function () {
@@ -1091,7 +1097,7 @@ var modulePromise = platform_browser_dynamic_1.platformBrowserDynamic().bootstra
 
 
 /***/ }),
-/* 7 */
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(__resourceQuery, module) {/*eslint-env browser*/
@@ -1107,7 +1113,7 @@ var options = {
   name: ''
 };
 if (true) {
-  var querystring = __webpack_require__(36);
+  var querystring = __webpack_require__(46);
   var overrides = querystring.parse(__resourceQuery.slice(1));
   if (overrides.path) options.path = overrides.path;
   if (overrides.timeout) options.timeout = overrides.timeout;
@@ -1227,11 +1233,11 @@ if (typeof window !== 'undefined') {
 }
 
 function createReporter() {
-  var strip = __webpack_require__(38);
+  var strip = __webpack_require__(48);
 
   var overlay;
   if (typeof document !== 'undefined' && options.overlay) {
-    overlay = __webpack_require__(42);
+    overlay = __webpack_require__(55);
   }
 
   var styles = {
@@ -1284,7 +1290,7 @@ function createReporter() {
   };
 }
 
-var processUpdate = __webpack_require__(43);
+var processUpdate = __webpack_require__(56);
 
 var customHandler;
 var subscribeAllHandler;
@@ -1349,16 +1355,16 @@ if (module) {
   };
 }
 
-/* WEBPACK VAR INJECTION */}.call(exports, "?path=%2F__webpack_hmr", __webpack_require__(44)(module)))
-
-/***/ }),
-/* 8 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(0))(44);
+/* WEBPACK VAR INJECTION */}.call(exports, "?path=%2F__webpack_hmr", __webpack_require__(57)(module)))
 
 /***/ }),
 /* 9 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(1))(44);
+
+/***/ }),
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1541,7 +1547,7 @@ ansiHTML.reset()
 
 
 /***/ }),
-/* 10 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1552,7 +1558,7 @@ module.exports = function () {
 
 
 /***/ }),
-/* 11 */
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1564,12 +1570,12 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var fish_list_service_1 = __webpack_require__(2);
-var core_1 = __webpack_require__(1);
-var platform_browser_1 = __webpack_require__(50);
-var forms_1 = __webpack_require__(46);
+var fish_list_service_1 = __webpack_require__(3);
+var core_1 = __webpack_require__(0);
+var platform_browser_1 = __webpack_require__(61);
+var forms_1 = __webpack_require__(59);
 var http_1 = __webpack_require__(5);
-var app_module_1 = __webpack_require__(12);
+var app_module_1 = __webpack_require__(13);
 var AppModule = (function () {
     function AppModule() {
     }
@@ -1594,24 +1600,24 @@ exports.AppModule = AppModule;
 
 
 /***/ }),
-/* 12 */
+/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var fish_page_component_1 = __webpack_require__(61);
-var side_bar_component_1 = __webpack_require__(57);
-var nav_bar_component_1 = __webpack_require__(53);
-var fish_thumbnail_component_1 = __webpack_require__(17);
-var fish_list_service_1 = __webpack_require__(2);
-var fish_list_component_1 = __webpack_require__(16);
-var router_1 = __webpack_require__(48);
-var app_component_1 = __webpack_require__(13);
-var navmenu_component_1 = __webpack_require__(19);
-var home_component_1 = __webpack_require__(18);
-var fetchdata_component_1 = __webpack_require__(15);
-var counter_component_1 = __webpack_require__(14);
+var fish_page_component_1 = __webpack_require__(18);
+var side_bar_component_1 = __webpack_require__(23);
+var nav_bar_component_1 = __webpack_require__(21);
+var fish_thumbnail_component_1 = __webpack_require__(19);
+var fish_list_service_1 = __webpack_require__(3);
+var fish_list_component_1 = __webpack_require__(17);
+var router_1 = __webpack_require__(6);
+var app_component_1 = __webpack_require__(14);
+var navmenu_component_1 = __webpack_require__(22);
+var home_component_1 = __webpack_require__(20);
+var fetchdata_component_1 = __webpack_require__(16);
+var counter_component_1 = __webpack_require__(15);
 exports.sharedConfig = {
     bootstrap: [app_component_1.AppComponent],
     declarations: [
@@ -1644,35 +1650,6 @@ exports.sharedConfig = {
 
 
 /***/ }),
-/* 13 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
-var AppComponent = (function () {
-    function AppComponent() {
-    }
-    return AppComponent;
-}());
-AppComponent = __decorate([
-    core_1.Component({
-        selector: 'app',
-        template: __webpack_require__(27),
-        styles: [__webpack_require__(39)]
-    })
-], AppComponent);
-exports.AppComponent = AppComponent;
-
-
-/***/ }),
 /* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1685,23 +1662,20 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
-var CounterComponent = (function () {
-    function CounterComponent() {
-        this.currentCount = 0;
+var core_1 = __webpack_require__(0);
+var AppComponent = (function () {
+    function AppComponent() {
     }
-    CounterComponent.prototype.incrementCounter = function () {
-        this.currentCount++;
-    };
-    return CounterComponent;
+    return AppComponent;
 }());
-CounterComponent = __decorate([
+AppComponent = __decorate([
     core_1.Component({
-        selector: 'counter',
-        template: __webpack_require__(28)
+        selector: 'app',
+        template: __webpack_require__(34),
+        styles: [__webpack_require__(49)]
     })
-], CounterComponent);
-exports.CounterComponent = CounterComponent;
+], AppComponent);
+exports.AppComponent = AppComponent;
 
 
 /***/ }),
@@ -1716,33 +1690,24 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-var __param = (this && this.__param) || function (paramIndex, decorator) {
-    return function (target, key) { decorator(target, key, paramIndex); }
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
-var http_1 = __webpack_require__(5);
-var FetchDataComponent = (function () {
-    function FetchDataComponent(http, originUrl) {
-        var _this = this;
-        http.get(originUrl + '/api/SampleData/WeatherForecasts').subscribe(function (result) {
-            _this.forecasts = result.json();
-        });
+var core_1 = __webpack_require__(0);
+var CounterComponent = (function () {
+    function CounterComponent() {
+        this.currentCount = 0;
     }
-    return FetchDataComponent;
+    CounterComponent.prototype.incrementCounter = function () {
+        this.currentCount++;
+    };
+    return CounterComponent;
 }());
-FetchDataComponent = __decorate([
+CounterComponent = __decorate([
     core_1.Component({
-        selector: 'fetchdata',
-        template: __webpack_require__(29)
-    }),
-    __param(1, core_1.Inject('ORIGIN_URL')),
-    __metadata("design:paramtypes", [http_1.Http, String])
-], FetchDataComponent);
-exports.FetchDataComponent = FetchDataComponent;
+        selector: 'counter',
+        template: __webpack_require__(35)
+    })
+], CounterComponent);
+exports.CounterComponent = CounterComponent;
 
 
 /***/ }),
@@ -1760,26 +1725,30 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-var fish_list_service_1 = __webpack_require__(2);
-var core_1 = __webpack_require__(1);
-var FishListComponent = (function () {
-    function FishListComponent(service) {
-        this.service = service;
-        this.fishList = service.getFishList();
+var core_1 = __webpack_require__(0);
+var http_1 = __webpack_require__(5);
+var FetchDataComponent = (function () {
+    function FetchDataComponent(http, originUrl) {
+        var _this = this;
+        http.get(originUrl + '/api/SampleData/WeatherForecasts').subscribe(function (result) {
+            _this.forecasts = result.json();
+        });
     }
-    FishListComponent.prototype.ngOnInit = function () {
-    };
-    return FishListComponent;
+    return FetchDataComponent;
 }());
-FishListComponent = __decorate([
+FetchDataComponent = __decorate([
     core_1.Component({
-        selector: 'app-fish-list',
-        template: __webpack_require__(30)
+        selector: 'fetchdata',
+        template: __webpack_require__(36)
     }),
-    __metadata("design:paramtypes", [fish_list_service_1.FishListService])
-], FishListComponent);
-exports.FishListComponent = FishListComponent;
+    __param(1, core_1.Inject('ORIGIN_URL')),
+    __metadata("design:paramtypes", [http_1.Http, String])
+], FetchDataComponent);
+exports.FetchDataComponent = FetchDataComponent;
 
 
 /***/ }),
@@ -1798,28 +1767,25 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var fish_1 = __webpack_require__(20);
-var core_1 = __webpack_require__(1);
-var FishThumbnailComponent = (function () {
-    function FishThumbnailComponent() {
+var fish_list_service_1 = __webpack_require__(3);
+var core_1 = __webpack_require__(0);
+var FishListComponent = (function () {
+    function FishListComponent(service) {
+        this.service = service;
+        this.fishList = service.getFishList();
     }
-    FishThumbnailComponent.prototype.ngOnInit = function () {
+    FishListComponent.prototype.ngOnInit = function () {
     };
-    return FishThumbnailComponent;
+    return FishListComponent;
 }());
-__decorate([
-    core_1.Input('fish'),
-    __metadata("design:type", fish_1.Fish)
-], FishThumbnailComponent.prototype, "fish", void 0);
-FishThumbnailComponent = __decorate([
+FishListComponent = __decorate([
     core_1.Component({
-        selector: 'app-fish-thumbnail',
-        template: __webpack_require__(31),
-        styles: [__webpack_require__(40)]
+        selector: 'app-fish-list',
+        template: __webpack_require__(37)
     }),
-    __metadata("design:paramtypes", [])
-], FishThumbnailComponent);
-exports.FishThumbnailComponent = FishThumbnailComponent;
+    __metadata("design:paramtypes", [fish_list_service_1.FishListService])
+], FishListComponent);
+exports.FishListComponent = FishListComponent;
 
 
 /***/ }),
@@ -1834,20 +1800,36 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
-var HomeComponent = (function () {
-    function HomeComponent() {
+var fish_list_service_1 = __webpack_require__(3);
+var core_1 = __webpack_require__(0);
+var router_1 = __webpack_require__(6);
+var FishPageComponent = (function () {
+    function FishPageComponent(route, service) {
+        this.route = route;
+        this.service = service;
     }
-    return HomeComponent;
+    FishPageComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.route.paramMap.subscribe(function (params) {
+            var id = +params.get('id');
+            _this.fish = _this.service.getFish(id);
+        });
+    };
+    return FishPageComponent;
 }());
-HomeComponent = __decorate([
+FishPageComponent = __decorate([
     core_1.Component({
-        selector: 'home',
-        template: __webpack_require__(32)
-    })
-], HomeComponent);
-exports.HomeComponent = HomeComponent;
+        selector: 'fish-page',
+        template: __webpack_require__(38),
+        styles: [__webpack_require__(50)]
+    }),
+    __metadata("design:paramtypes", [router_1.ActivatedRoute, fish_list_service_1.FishListService])
+], FishPageComponent);
+exports.FishPageComponent = FishPageComponent;
 
 
 /***/ }),
@@ -1862,8 +1844,111 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
+var fish_1 = __webpack_require__(24);
+var core_1 = __webpack_require__(0);
+var FishThumbnailComponent = (function () {
+    function FishThumbnailComponent() {
+    }
+    FishThumbnailComponent.prototype.ngOnInit = function () {
+    };
+    return FishThumbnailComponent;
+}());
+__decorate([
+    core_1.Input('fish'),
+    __metadata("design:type", fish_1.Fish)
+], FishThumbnailComponent.prototype, "fish", void 0);
+FishThumbnailComponent = __decorate([
+    core_1.Component({
+        selector: 'app-fish-thumbnail',
+        template: __webpack_require__(39),
+        styles: [__webpack_require__(51)]
+    }),
+    __metadata("design:paramtypes", [])
+], FishThumbnailComponent);
+exports.FishThumbnailComponent = FishThumbnailComponent;
+
+
+/***/ }),
+/* 20 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = __webpack_require__(0);
+var HomeComponent = (function () {
+    function HomeComponent() {
+    }
+    return HomeComponent;
+}());
+HomeComponent = __decorate([
+    core_1.Component({
+        selector: 'home',
+        template: __webpack_require__(40)
+    })
+], HomeComponent);
+exports.HomeComponent = HomeComponent;
+
+
+/***/ }),
+/* 21 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = __webpack_require__(0);
+var NavBarComponent = (function () {
+    function NavBarComponent() {
+    }
+    NavBarComponent.prototype.ngOnInit = function () {
+    };
+    return NavBarComponent;
+}());
+NavBarComponent = __decorate([
+    core_1.Component({
+        selector: 'nav-bar',
+        template: __webpack_require__(41),
+        styles: [__webpack_require__(52)]
+    }),
+    __metadata("design:paramtypes", [])
+], NavBarComponent);
+exports.NavBarComponent = NavBarComponent;
+
+
+/***/ }),
+/* 22 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = __webpack_require__(0);
 var NavMenuComponent = (function () {
     function NavMenuComponent() {
     }
@@ -1872,15 +1957,50 @@ var NavMenuComponent = (function () {
 NavMenuComponent = __decorate([
     core_1.Component({
         selector: 'nav-menu',
-        template: __webpack_require__(33),
-        styles: [__webpack_require__(41)]
+        template: __webpack_require__(42),
+        styles: [__webpack_require__(53)]
     })
 ], NavMenuComponent);
 exports.NavMenuComponent = NavMenuComponent;
 
 
 /***/ }),
-/* 20 */
+/* 23 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = __webpack_require__(0);
+var SideBarComponent = (function () {
+    function SideBarComponent() {
+    }
+    SideBarComponent.prototype.ngOnInit = function () {
+    };
+    return SideBarComponent;
+}());
+SideBarComponent = __decorate([
+    core_1.Component({
+        selector: 'side-bar',
+        template: __webpack_require__(43),
+        styles: [__webpack_require__(54)]
+    }),
+    __metadata("design:paramtypes", [])
+], SideBarComponent);
+exports.SideBarComponent = SideBarComponent;
+
+
+/***/ }),
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1895,10 +2015,10 @@ exports.Fish = Fish;
 
 
 /***/ }),
-/* 21 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(undefined);
+exports = module.exports = __webpack_require__(2)(undefined);
 // imports
 
 
@@ -1909,10 +2029,24 @@ exports.push([module.i, ".app-body{\r\n    margin-top: 50px;\r\n}\r\n\r\n.app-ma
 
 
 /***/ }),
-/* 22 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(undefined);
+exports = module.exports = __webpack_require__(2)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/***/ }),
+/* 27 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(2)(undefined);
 // imports
 
 
@@ -1923,10 +2057,24 @@ exports.push([module.i, "a:hover  {\n    background-color: #f6f6f6;\n    border-
 
 
 /***/ }),
-/* 23 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(undefined);
+exports = module.exports = __webpack_require__(2)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".nav-bar{\n    padding-bottom: 75px;\n}\n\n.btn-custom{\n    background: #222;\n    color: #9d9d9d;\n}\n\n.btn-custom:hover{\n    color: white;\n}\n\n.btn-custom:focus{\n    outline:none;\n}\n\n@media (max-width: 768px) {\n    .nav-hide{\n        display:none;\n    }\n}", ""]);
+
+// exports
+
+
+/***/ }),
+/* 29 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(2)(undefined);
 // imports
 
 
@@ -1937,19 +2085,33 @@ exports.push([module.i, "li .glyphicon {\r\n    margin-right: 10px;\r\n}\r\n\r\n
 
 
 /***/ }),
-/* 24 */
+/* 30 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(2)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "#wrapper {\n  padding-left: 250px;\n  transition: all 0.4s ease 0s;\n}\n\n#sidebar-wrapper {\n  margin-left: -250px;\n  left: 250px;\n  width: 250px;\n  background: #f1f1f1;\n  position: fixed;\n  height: 100%;\n  overflow-y: auto;\n  z-index: 1000;\n  transition: all 0.4s ease 0s;\n}\n\n#page-content-wrapper {\n  width: 100%;\n}\n\n.sidebar-nav {\n  position: absolute;\n  top: 0;\n  width: 250px;\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n@media (max-width:767px) {\n\n    #wrapper {\n      padding-left: 0;\n    }\n\n    #sidebar-wrapper {\n      left: 0;\n    }\n\n    #wrapper.active {\n      position: relative;\n      left: 250px;\n    }\n\n    #wrapper.active #sidebar-wrapper {\n      left: 250px;\n      width: 250px;\n      transition: all 0.4s ease 0s;\n    }\n\n}", ""]);
+
+// exports
+
+
+/***/ }),
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
-  XmlEntities: __webpack_require__(26),
-  Html4Entities: __webpack_require__(25),
+  XmlEntities: __webpack_require__(33),
+  Html4Entities: __webpack_require__(32),
   Html5Entities: __webpack_require__(4),
   AllHtmlEntities: __webpack_require__(4)
 };
 
 
 /***/ }),
-/* 25 */
+/* 32 */
 /***/ (function(module, exports) {
 
 var HTML_ALPHA = ['apos', 'nbsp', 'iexcl', 'cent', 'pound', 'curren', 'yen', 'brvbar', 'sect', 'uml', 'copy', 'ordf', 'laquo', 'not', 'shy', 'reg', 'macr', 'deg', 'plusmn', 'sup2', 'sup3', 'acute', 'micro', 'para', 'middot', 'cedil', 'sup1', 'ordm', 'raquo', 'frac14', 'frac12', 'frac34', 'iquest', 'Agrave', 'Aacute', 'Acirc', 'Atilde', 'Auml', 'Aring', 'Aelig', 'Ccedil', 'Egrave', 'Eacute', 'Ecirc', 'Euml', 'Igrave', 'Iacute', 'Icirc', 'Iuml', 'ETH', 'Ntilde', 'Ograve', 'Oacute', 'Ocirc', 'Otilde', 'Ouml', 'times', 'Oslash', 'Ugrave', 'Uacute', 'Ucirc', 'Uuml', 'Yacute', 'THORN', 'szlig', 'agrave', 'aacute', 'acirc', 'atilde', 'auml', 'aring', 'aelig', 'ccedil', 'egrave', 'eacute', 'ecirc', 'euml', 'igrave', 'iacute', 'icirc', 'iuml', 'eth', 'ntilde', 'ograve', 'oacute', 'ocirc', 'otilde', 'ouml', 'divide', 'oslash', 'ugrave', 'uacute', 'ucirc', 'uuml', 'yacute', 'thorn', 'yuml', 'quot', 'amp', 'lt', 'gt', 'OElig', 'oelig', 'Scaron', 'scaron', 'Yuml', 'circ', 'tilde', 'ensp', 'emsp', 'thinsp', 'zwnj', 'zwj', 'lrm', 'rlm', 'ndash', 'mdash', 'lsquo', 'rsquo', 'sbquo', 'ldquo', 'rdquo', 'bdquo', 'dagger', 'Dagger', 'permil', 'lsaquo', 'rsaquo', 'euro', 'fnof', 'Alpha', 'Beta', 'Gamma', 'Delta', 'Epsilon', 'Zeta', 'Eta', 'Theta', 'Iota', 'Kappa', 'Lambda', 'Mu', 'Nu', 'Xi', 'Omicron', 'Pi', 'Rho', 'Sigma', 'Tau', 'Upsilon', 'Phi', 'Chi', 'Psi', 'Omega', 'alpha', 'beta', 'gamma', 'delta', 'epsilon', 'zeta', 'eta', 'theta', 'iota', 'kappa', 'lambda', 'mu', 'nu', 'xi', 'omicron', 'pi', 'rho', 'sigmaf', 'sigma', 'tau', 'upsilon', 'phi', 'chi', 'psi', 'omega', 'thetasym', 'upsih', 'piv', 'bull', 'hellip', 'prime', 'Prime', 'oline', 'frasl', 'weierp', 'image', 'real', 'trade', 'alefsym', 'larr', 'uarr', 'rarr', 'darr', 'harr', 'crarr', 'lArr', 'uArr', 'rArr', 'dArr', 'hArr', 'forall', 'part', 'exist', 'empty', 'nabla', 'isin', 'notin', 'ni', 'prod', 'sum', 'minus', 'lowast', 'radic', 'prop', 'infin', 'ang', 'and', 'or', 'cap', 'cup', 'int', 'there4', 'sim', 'cong', 'asymp', 'ne', 'equiv', 'le', 'ge', 'sub', 'sup', 'nsub', 'sube', 'supe', 'oplus', 'otimes', 'perp', 'sdot', 'lceil', 'rceil', 'lfloor', 'rfloor', 'lang', 'rang', 'loz', 'spades', 'clubs', 'hearts', 'diams'];
@@ -2102,7 +2264,7 @@ module.exports = Html4Entities;
 
 
 /***/ }),
-/* 26 */
+/* 33 */
 /***/ (function(module, exports) {
 
 var ALPHA_INDEX = {
@@ -2263,49 +2425,67 @@ module.exports = XmlEntities;
 
 
 /***/ }),
-/* 27 */
+/* 34 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class='container-fluid'>\r\n      <nav-bar></nav-bar>  \r\n    <div class=\"app-body\">\r\n        <div class='row'>\r\n            <div class='col-sm-2'>\r\n                <nav-menu></nav-menu>\r\n            </div>\r\n            <div class='col-sm-10'>  \r\n                <div class=\"app-margin-top\">\r\n                    <router-outlet></router-outlet>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n";
 
 /***/ }),
-/* 28 */
+/* 35 */
 /***/ (function(module, exports) {
 
 module.exports = "<h1>Counter</h1>\r\n\r\n<p>This is a simple example of an Angular component.</p>\r\n\r\n<p>Current count: <strong>{{ currentCount }}</strong></p>\r\n\r\n<button (click)=\"incrementCounter()\">Increment</button>\r\n";
 
 /***/ }),
-/* 29 */
+/* 36 */
 /***/ (function(module, exports) {
 
 module.exports = "<h1>Weather forecast</h1>\r\n\r\n<p>This component demonstrates fetching data from the server.</p>\r\n\r\n<p *ngIf=\"!forecasts\"><em>Loading...</em></p>\r\n\r\n<table class='table' *ngIf=\"forecasts\">\r\n    <thead>\r\n        <tr>\r\n            <th>Date</th>\r\n            <th>Temp. (C)</th>\r\n            <th>Temp. (F)</th>\r\n            <th>Summary</th>\r\n        </tr>\r\n    </thead>\r\n    <tbody>\r\n        <tr *ngFor=\"let forecast of forecasts\">\r\n            <td>{{ forecast.dateFormatted }}</td>\r\n            <td>{{ forecast.temperatureC }}</td>\r\n            <td>{{ forecast.temperatureF }}</td>\r\n            <td>{{ forecast.summary }}</td>\r\n        </tr>\r\n    </tbody>\r\n</table>\r\n";
 
 /***/ }),
-/* 30 */
+/* 37 */
 /***/ (function(module, exports) {
 
 module.exports = "\n<div class=\"row\">\n  <div *ngFor=\"let fish of fishList\">\n    <app-fish-thumbnail [fish]=\"fish\"></app-fish-thumbnail>\n  </div>\n</div>\n";
 
 /***/ }),
-/* 31 */
+/* 38 */
+/***/ (function(module, exports) {
+
+module.exports = "<h2>{{fish.name}}</h2>\n";
+
+/***/ }),
+/* 39 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"col-sm-3 col-md-2\">\n  <a class=\"thumbnail\" [routerLink]=\"['/fish-page', fish.id, fish.name]\">\n    <img class=\"img-fluid\" [src]=\"fish.imageUrl\" alt=\"...\">\n    <div class=\"caption\">\n      <h5 class=\"text-center\">{{ fish.name }}</h5>\n    </div>\n  </a>\n</div>";
 
 /***/ }),
-/* 32 */
+/* 40 */
 /***/ (function(module, exports) {
 
 module.exports = "<h1>Find-A-Fish</h1>\r\n\r\n";
 
 /***/ }),
-/* 33 */
+/* 41 */
+/***/ (function(module, exports) {
+
+module.exports = "\n<nav class=\"navbar navbar-inverse navbar-fixed-top\">\n  <div class=\"container-fluid\">\n    <!-- Brand and toggle get grouped for better mobile display -->\n    <div class=\"navbar-header\">\n      <button type=\"button\" class=\"btn btn-custom navbar-btn pull-left nav-hide\">\n        <span class=\"glyphicon glyphicon-menu-hamburger\" aria-hidden=\"true\"></span>\n      </button>\n      \n      <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\" aria-expanded=\"false\">\n        <span class=\"sr-only\">Toggle navigation</span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n      </button>\n      <a class=\"navbar-brand\" href=\"#\">Find-A-Fish</a>\n    </div>\n\n    <!-- Collect the nav links, forms, and other content for toggling -->\n    <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n      <ul class=\"nav navbar-nav\">\n        <li class=\"active\"><a href=\"#\">Link <span class=\"sr-only\">(current)</span></a></li>\n        <li><a href=\"#\">Link</a></li>\n        <li class=\"dropdown\">\n          <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">Dropdown <span class=\"caret\"></span></a>\n          <ul class=\"dropdown-menu\">\n            <li><a href=\"#\">Action</a></li>\n            <li><a href=\"#\">Another action</a></li>\n            <li><a href=\"#\">Something else here</a></li>\n            <li role=\"separator\" class=\"divider\"></li>\n            <li><a href=\"#\">Separated link</a></li>\n            <li role=\"separator\" class=\"divider\"></li>\n            <li><a href=\"#\">One more separated link</a></li>\n          </ul>\n        </li>\n      </ul>\n      <form class=\"navbar-form navbar-left\">\n        <div class=\"form-group\">\n          <input type=\"text\" class=\"form-control\" placeholder=\"Search\">\n        </div>\n        <button type=\"submit\" class=\"btn btn-default\">Submit</button>\n      </form>\n      <ul class=\"nav navbar-nav navbar-right\">\n        <li><a href=\"#\">Sign In</a></li>\n      </ul>\n    </div><!-- /.navbar-collapse -->\n  </div><!-- /.container-fluid -->\n</nav>\n";
+
+/***/ }),
+/* 42 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class='main-nav navbar-hide'>\r\n    <div class='navbar navbar-inverse'>\r\n        <div class='navbar-header'>\r\n            <a class='navbar-brand' [routerLink]=\"['/home']\"></a>\r\n        </div>\r\n        <div class='clearfix'></div>\r\n        <div class='navbar-collapse collapse'>\r\n            <ul class='nav navbar-nav'>\r\n                <li [routerLinkActive]=\"['link-active']\">\r\n                    <a [routerLink]=\"['/home']\">\r\n                        <span class='glyphicon glyphicon-home'></span> Home\r\n                    </a>\r\n                </li>\r\n                <li [routerLinkActive]=\"['link-active']\">\r\n                    <a [routerLink]=\"['/counter']\">\r\n                        <span class='glyphicon glyphicon-education'></span> Counter\r\n                    </a>\r\n                </li>\r\n                <li [routerLinkActive]=\"['link-active']\">\r\n                    <a [routerLink]=\"['/fetch-data']\">\r\n                        <span class='glyphicon glyphicon-th-list'></span> Fetch data\r\n                    </a>\r\n                </li>\r\n                <li [routerLinkActive]=\"['link-active']\">\r\n                    <a [routerLink]=\"['/fish-list']\">\r\n                        <span class='glyphicon glyphicon-th-list'></span> Fish\r\n                    </a>\r\n                </li>\r\n            </ul>\r\n        </div>\r\n    </div>\r\n</div>\r\n";
 
 /***/ }),
-/* 34 */
+/* 43 */
+/***/ (function(module, exports) {
+
+module.exports = "<div id=\"sidebar-wrapper\">\n    <ul class=\"nav nav-pills nav-stacked\">\n        <li [routerLinkActive]=\"['link-active']\">\n            <a [routerLink]=\"['/home']\">\n                <span class='glyphicon glyphicon-home'></span> Home\n            </a>\n        </li>\n        <li [routerLinkActive]=\"['link-active']\">\n            <a [routerLink]=\"['/counter']\">\n                <span class='glyphicon glyphicon-education'></span> Counter\n            </a>\n        </li>\n        <li [routerLinkActive]=\"['link-active']\">\n            <a [routerLink]=\"['/fetch-data']\">\n                <span class='glyphicon glyphicon-th-list'></span> Fetch data\n            </a>\n        </li>\n        <li [routerLinkActive]=\"['link-active']\">\n            <a [routerLink]=\"['/fish-list']\">\n                <span class='glyphicon glyphicon-th-list'></span> Fish\n            </a>\n        </li>\n    </ul>\n</div>\n";
+
+/***/ }),
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2396,7 +2576,7 @@ var isArray = Array.isArray || function (xs) {
 
 
 /***/ }),
-/* 35 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2488,18 +2668,18 @@ var objectKeys = Object.keys || function (obj) {
 
 
 /***/ }),
-/* 36 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-exports.decode = exports.parse = __webpack_require__(34);
-exports.encode = exports.stringify = __webpack_require__(35);
+exports.decode = exports.parse = __webpack_require__(44);
+exports.encode = exports.stringify = __webpack_require__(45);
 
 
 /***/ }),
-/* 37 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(process, global) {/*! *****************************************************************************
@@ -3627,15 +3807,15 @@ var Reflect;
             Function("return this;")());
 })(Reflect || (Reflect = {}));
 //# sourceMappingURL=Reflect.js.map
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(45), __webpack_require__(51)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(58), __webpack_require__(63)))
 
 /***/ }),
-/* 38 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var ansiRegex = __webpack_require__(10)();
+var ansiRegex = __webpack_require__(11)();
 
 module.exports = function (str) {
 	return typeof str === 'string' ? str.replace(ansiRegex, '') : str;
@@ -3643,11 +3823,11 @@ module.exports = function (str) {
 
 
 /***/ }),
-/* 39 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(21);
+        var result = __webpack_require__(25);
 
         if (typeof result === "string") {
             module.exports = result;
@@ -3657,11 +3837,11 @@ module.exports = function (str) {
     
 
 /***/ }),
-/* 40 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(22);
+        var result = __webpack_require__(26);
 
         if (typeof result === "string") {
             module.exports = result;
@@ -3671,11 +3851,11 @@ module.exports = function (str) {
     
 
 /***/ }),
-/* 41 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(23);
+        var result = __webpack_require__(27);
 
         if (typeof result === "string") {
             module.exports = result;
@@ -3685,7 +3865,49 @@ module.exports = function (str) {
     
 
 /***/ }),
-/* 42 */
+/* 52 */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(28);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+/* 53 */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(29);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+/* 54 */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(30);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
+
+/***/ }),
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*eslint-env browser*/
@@ -3714,7 +3936,7 @@ for (var key in styles) {
   clientOverlay.style[key] = styles[key];
 }
 
-var ansiHTML = __webpack_require__(9);
+var ansiHTML = __webpack_require__(10);
 var colors = {
   reset: ['transparent', 'transparent'],
   black: '181818',
@@ -3729,7 +3951,7 @@ var colors = {
 };
 ansiHTML.setColors(colors);
 
-var Entities = __webpack_require__(24).AllHtmlEntities;
+var Entities = __webpack_require__(31).AllHtmlEntities;
 var entities = new Entities();
 
 exports.showProblems =
@@ -3770,7 +3992,7 @@ function problemType (type) {
 
 
 /***/ }),
-/* 43 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -3908,7 +4130,7 @@ module.exports = function(hash, moduleMap, options) {
 
 
 /***/ }),
-/* 44 */
+/* 57 */
 /***/ (function(module, exports) {
 
 module.exports = function(module) {
@@ -3936,271 +4158,49 @@ module.exports = function(module) {
 
 
 /***/ }),
-/* 45 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(0))(12);
-
-/***/ }),
-/* 46 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(0))(37);
-
-/***/ }),
-/* 47 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(0))(39);
-
-/***/ }),
-/* 48 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(0))(40);
-
-/***/ }),
-/* 49 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(0))(46);
-
-/***/ }),
-/* 50 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(0))(5);
-
-/***/ }),
-/* 51 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(0))(7);
-
-/***/ }),
-/* 52 */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(8);
-__webpack_require__(7);
-module.exports = __webpack_require__(6);
-
-
-/***/ }),
-/* 53 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
-var NavBarComponent = (function () {
-    function NavBarComponent() {
-    }
-    NavBarComponent.prototype.ngOnInit = function () {
-    };
-    return NavBarComponent;
-}());
-NavBarComponent = __decorate([
-    core_1.Component({
-        selector: 'nav-bar',
-        template: __webpack_require__(55),
-        styles: [__webpack_require__(56)]
-    }),
-    __metadata("design:paramtypes", [])
-], NavBarComponent);
-exports.NavBarComponent = NavBarComponent;
-
-
-/***/ }),
-/* 54 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(3)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, ".nav-bar{\n    padding-bottom: 75px;\n}\n\n.btn-custom{\n    background: #222;\n    color: #9d9d9d;\n}\n\n.btn-custom:hover{\n    color: white;\n}\n\n.btn-custom:focus{\n    outline:none;\n}\n\n@media (max-width: 768px) {\n    .nav-hide{\n        display:none;\n    }\n}", ""]);
-
-// exports
-
-
-/***/ }),
-/* 55 */
-/***/ (function(module, exports) {
-
-module.exports = "\n<nav class=\"navbar navbar-inverse navbar-fixed-top\">\n  <div class=\"container-fluid\">\n    <!-- Brand and toggle get grouped for better mobile display -->\n    <div class=\"navbar-header\">\n      <button type=\"button\" class=\"btn btn-custom navbar-btn pull-left nav-hide\">\n        <span class=\"glyphicon glyphicon-menu-hamburger\" aria-hidden=\"true\"></span>\n      </button>\n      \n      <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\" aria-expanded=\"false\">\n        <span class=\"sr-only\">Toggle navigation</span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n      </button>\n      <a class=\"navbar-brand\" href=\"#\">Find-A-Fish</a>\n    </div>\n\n    <!-- Collect the nav links, forms, and other content for toggling -->\n    <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n      <ul class=\"nav navbar-nav\">\n        <li class=\"active\"><a href=\"#\">Link <span class=\"sr-only\">(current)</span></a></li>\n        <li><a href=\"#\">Link</a></li>\n        <li class=\"dropdown\">\n          <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">Dropdown <span class=\"caret\"></span></a>\n          <ul class=\"dropdown-menu\">\n            <li><a href=\"#\">Action</a></li>\n            <li><a href=\"#\">Another action</a></li>\n            <li><a href=\"#\">Something else here</a></li>\n            <li role=\"separator\" class=\"divider\"></li>\n            <li><a href=\"#\">Separated link</a></li>\n            <li role=\"separator\" class=\"divider\"></li>\n            <li><a href=\"#\">One more separated link</a></li>\n          </ul>\n        </li>\n      </ul>\n      <form class=\"navbar-form navbar-left\">\n        <div class=\"form-group\">\n          <input type=\"text\" class=\"form-control\" placeholder=\"Search\">\n        </div>\n        <button type=\"submit\" class=\"btn btn-default\">Submit</button>\n      </form>\n      <ul class=\"nav navbar-nav navbar-right\">\n        <li><a href=\"#\">Sign In</a></li>\n      </ul>\n    </div><!-- /.navbar-collapse -->\n  </div><!-- /.container-fluid -->\n</nav>\n";
-
-/***/ }),
-/* 56 */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-        var result = __webpack_require__(54);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
-
-/***/ }),
-/* 57 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
-var SideBarComponent = (function () {
-    function SideBarComponent() {
-    }
-    SideBarComponent.prototype.ngOnInit = function () {
-    };
-    return SideBarComponent;
-}());
-SideBarComponent = __decorate([
-    core_1.Component({
-        selector: 'side-bar',
-        template: __webpack_require__(59),
-        styles: [__webpack_require__(60)]
-    }),
-    __metadata("design:paramtypes", [])
-], SideBarComponent);
-exports.SideBarComponent = SideBarComponent;
-
-
-/***/ }),
 /* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, "#wrapper {\n  padding-left: 250px;\n  transition: all 0.4s ease 0s;\n}\n\n#sidebar-wrapper {\n  margin-left: -250px;\n  left: 250px;\n  width: 250px;\n  background: #f1f1f1;\n  position: fixed;\n  height: 100%;\n  overflow-y: auto;\n  z-index: 1000;\n  transition: all 0.4s ease 0s;\n}\n\n#page-content-wrapper {\n  width: 100%;\n}\n\n.sidebar-nav {\n  position: absolute;\n  top: 0;\n  width: 250px;\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n@media (max-width:767px) {\n\n    #wrapper {\n      padding-left: 0;\n    }\n\n    #sidebar-wrapper {\n      left: 0;\n    }\n\n    #wrapper.active {\n      position: relative;\n      left: 250px;\n    }\n\n    #wrapper.active #sidebar-wrapper {\n      left: 250px;\n      width: 250px;\n      transition: all 0.4s ease 0s;\n    }\n\n}", ""]);
-
-// exports
-
+module.exports = (__webpack_require__(1))(11);
 
 /***/ }),
 /* 59 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = "<div id=\"sidebar-wrapper\">\n    <ul class=\"nav nav-pills nav-stacked\">\n        <li [routerLinkActive]=\"['link-active']\">\n            <a [routerLink]=\"['/home']\">\n                <span class='glyphicon glyphicon-home'></span> Home\n            </a>\n        </li>\n        <li [routerLinkActive]=\"['link-active']\">\n            <a [routerLink]=\"['/counter']\">\n                <span class='glyphicon glyphicon-education'></span> Counter\n            </a>\n        </li>\n        <li [routerLinkActive]=\"['link-active']\">\n            <a [routerLink]=\"['/fetch-data']\">\n                <span class='glyphicon glyphicon-th-list'></span> Fetch data\n            </a>\n        </li>\n        <li [routerLinkActive]=\"['link-active']\">\n            <a [routerLink]=\"['/fish-list']\">\n                <span class='glyphicon glyphicon-th-list'></span> Fish\n            </a>\n        </li>\n    </ul>\n</div>\n";
+module.exports = (__webpack_require__(1))(37);
 
 /***/ }),
 /* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
-
-        var result = __webpack_require__(58);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
+module.exports = (__webpack_require__(1))(39);
 
 /***/ }),
 /* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-var fish_list_service_1 = __webpack_require__(2);
-var core_1 = __webpack_require__(1);
-var router_1 = __webpack_require__(48);
-var FishPageComponent = (function () {
-    function FishPageComponent(route, service) {
-        this.route = route;
-        this.service = service;
-    }
-    FishPageComponent.prototype.ngOnInit = function () {
-        var _this = this;
-        this.route.paramMap.subscribe(function (params) {
-            var id = +params.get('id');
-            _this.fish = _this.service.getFish(id);
-        });
-    };
-    return FishPageComponent;
-}());
-FishPageComponent = __decorate([
-    core_1.Component({
-        selector: 'fish-page',
-        template: __webpack_require__(63),
-        styles: [__webpack_require__(64)]
-    }),
-    __metadata("design:paramtypes", [router_1.ActivatedRoute, fish_list_service_1.FishListService])
-], FishPageComponent);
-exports.FishPageComponent = FishPageComponent;
-
+module.exports = (__webpack_require__(1))(4);
 
 /***/ }),
 /* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
+module.exports = (__webpack_require__(1))(46);
 
 /***/ }),
 /* 63 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = "<h2>{{fish.name}}</h2>\n";
+module.exports = (__webpack_require__(1))(6);
 
 /***/ }),
 /* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
+__webpack_require__(9);
+__webpack_require__(8);
+module.exports = __webpack_require__(7);
 
-        var result = __webpack_require__(62);
-
-        if (typeof result === "string") {
-            module.exports = result;
-        } else {
-            module.exports = result.toString();
-        }
-    
 
 /***/ })
 /******/ ]);
