@@ -1,9 +1,9 @@
 .app-body{
-    margin-top: 50px;
+    margin-top: 3.5em;
 }
 
 .app-margin-top{
-    margin-top: 20px;
+    margin-top: 2em;
 }
 
 @media (max-width: 767px) {
@@ -12,3 +12,4 @@
         padding-top: 50px;
     }
 }
+

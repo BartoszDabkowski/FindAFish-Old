@@ -21,7 +21,7 @@ a{
     right: 0;
     z-index: 1;
     height: 100%;
-        width: calc(100/6 * 1%);
+     width: calc(100/6 * 1%); 
 }
 
 
