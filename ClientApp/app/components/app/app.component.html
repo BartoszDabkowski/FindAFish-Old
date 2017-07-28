@@ -2,14 +2,10 @@
 <div class="app-body">
     <div class="container-fluid">
         <div class='row'>
-            <div class='col-sm-2'>
-                <sidebar></sidebar>
-            </div>
-            <div class='col-sm-10'>  
-                <div class="app-margin-top">
-                    <router-outlet></router-outlet>
-                </div>
-            </div>
+            <sidebar></sidebar>
+            <main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3">
+                <router-outlet></router-outlet>
+            </main>
         </div>
     </div>
 </div>

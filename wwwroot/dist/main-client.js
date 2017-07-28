@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "c95348e8ef78cb62cb67"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "1ebe5d0758d24ad52f60"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -2338,7 +2338,7 @@ module.exports = XmlEntities;
 /* 34 */
 /***/ (function(module, exports) {
 
-module.exports = "<nav-bar></nav-bar>  \r\n<div class=\"app-body\">\r\n    <div class=\"container-fluid\">\r\n        <div class='row'>\r\n            <div class='col-sm-2'>\r\n                <sidebar></sidebar>\r\n            </div>\r\n            <div class='col-sm-10'>  \r\n                <div class=\"app-margin-top\">\r\n                    <router-outlet></router-outlet>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n";
+module.exports = "<nav-bar></nav-bar>  \r\n<div class=\"app-body\">\r\n    <div class=\"container-fluid\">\r\n        <div class='row'>\r\n            <sidebar></sidebar>\r\n            <main class=\"col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3\">\r\n                <router-outlet></router-outlet>\r\n            </main>\r\n        </div>\r\n    </div>\r\n</div>\r\n";
 
 /***/ }),
 /* 35 */
@@ -4114,7 +4114,7 @@ exports = module.exports = __webpack_require__(2)(undefined);
 
 
 // module
-exports.push([module.i, "li .glyphicon {\r\n    margin-right: 10px;\r\n}\r\n\r\n/* Highlighting rules for nav menu items */\r\nli.link-active a,\r\nli.link-active a:hover,\r\nli.link-active a:focus {\r\n    background-color: #4189C7;\r\n    color: whitesmoke;\r\n}\r\na{\r\n    color: white;\r\n}\r\n\r\n/* Keep the nav menu independent of scrolling and on top of other items */\r\n.main-nav {\r\n    position: fixed;\r\n    top: 1;\r\n    left: 0;\r\n    right: 0;\r\n    z-index: 1;\r\n    height: 100%;\r\n     width: calc(100/6 * 1%); \r\n}\r\n\r\n\r\n\r\n\r\n@media (max-width: 768px) {\r\n    /* On small screens, convert the nav menu to a vertical sidebar */\r\n    .sidebar-collapse{\r\n        display: none;\r\n    }\r\n    \r\n/*     \r\n    .navbar {\r\n        border-radius: 0px;\r\n        border-width: 0px;\r\n        height: 100%;\r\n    }\r\n    .navbar-header {\r\n        float: none;\r\n    }\r\n    .sidebar-collapse {\r\n        border-top: 1px solid #444;\r\n        padding: 0px;\r\n    }\r\n    .navbar ul {\r\n        float: none;\r\n    }\r\n    .navbar li {\r\n        float: none;\r\n        font-size: 15px;\r\n        margin: 6px;\r\n    }\r\n    .navbar li a {\r\n        padding: 10px 16px;\r\n        border-radius: 4px;\r\n    }\r\n    .nav-pills a {\r\n        width: 100%;\r\n        white-space: nowrap;\r\n        overflow: hidden;\r\n        text-overflow: ellipsis;\r\n    } */\r\n}\r\n", ""]);
+exports.push([module.i, "li .glyphicon {\r\n    margin-right: 10px;\r\n}\r\n\r\n/* Highlighting rules for nav menu items */\r\nli.link-active a,\r\nli.link-active a:hover,\r\nli.link-active a:focus {\r\n    background-color: #4189C7;\r\n    color: whitesmoke; \r\n}\r\na{\r\n     color: #292b2c; \r\n}\r\n\r\n.sidebar {\r\n  position: fixed;\r\n  top: 51px;\r\n  /* bottom: 0; */\r\n  left: 0;\r\n  z-index: 1000;\r\n  padding: 20px;\r\n  overflow-x: hidden;\r\n  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */\r\n  border-right: 1px solid #eee;\r\n}\r\n\r\n/* Sidebar navigation */\r\n.sidebar {\r\n  padding-left: 0;\r\n  padding-right: 0;\r\n}\r\n\r\n.sidebar .nav {\r\n  margin-bottom: 20px;\r\n}\r\n\r\n.sidebar .nav-item {\r\n  width: 100%;\r\n}\r\n\r\n.sidebar .nav-item + .nav-item {\r\n  margin-left: 0;\r\n}\r\n\r\n.sidebar .nav-link {\r\n  border-radius: 0;\r\n  white-space: nowrap;\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n}", ""]);
 
 // exports
 
@@ -4123,7 +4123,7 @@ exports.push([module.i, "li .glyphicon {\r\n    margin-right: 10px;\r\n}\r\n\r\n
 /* 67 */
 /***/ (function(module, exports) {
 
-module.exports = "\r\n<div class=\"main-nav sidebar-collapse bg-inverse\">\r\n<ul class=\"nav nav-pills bg-inverse flex-column\">\r\n  <li class=\"nav-item\" [routerLinkActive]=\"['link-active']\">\r\n    <a class=\"nav-link\" [routerLink]=\"['/home']\">Home</a>\r\n  </li>\r\n  <li class=\"nav-item\" [routerLinkActive]=\"['link-active']\">\r\n    <a class=\"nav-link\" [routerLink]=\"['/counter']\">Counter</a>\r\n  </li>\r\n  <li class=\"nav-item\" [routerLinkActive]=\"['link-active']\">\r\n    <a class=\"nav-link\" [routerLink]=\"['/fetch-data']\">Fetch Data</a>\r\n  </li>\r\n  <li class=\"nav-item\" [routerLinkActive]=\"['link-active']\">\r\n    <a class=\"nav-link\" [routerLink]=\"['/fish-list']\">Fish List</a>\r\n  </li>\r\n</ul>\r\n</div>";
+module.exports = "\r\n<!-- <div class=\"main-nav sidebar-collapse bg-inverse\">\r\n<ul class=\"nav nav-pills bg-inverse flex-column\">\r\n  <li class=\"nav-item\" [routerLinkActive]=\"['link-active']\">\r\n    <a class=\"nav-link\" [routerLink]=\"['/home']\">Home</a>\r\n  </li>\r\n  <li class=\"nav-item\" [routerLinkActive]=\"['link-active']\">\r\n    <a class=\"nav-link\" [routerLink]=\"['/counter']\">Counter</a>\r\n  </li>\r\n  <li class=\"nav-item\" [routerLinkActive]=\"['link-active']\">\r\n    <a class=\"nav-link\" [routerLink]=\"['/fetch-data']\">Fetch Data</a>\r\n  </li>\r\n  <li class=\"nav-item\" [routerLinkActive]=\"['link-active']\">\r\n    <a class=\"nav-link\" [routerLink]=\"['/fish-list']\">Fish List</a>\r\n  </li>\r\n</ul>\r\n</div> -->\r\n\r\n<nav class=\"col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar\">\r\n  <ul class=\"nav nav-pills flex-column\">\r\n    <li class=\"nav-item\" [routerLinkActive]=\"['link-active']\">\r\n      <a class=\"nav-link\" [routerLink]=\"['/home']\">Home</a>\r\n    </li>\r\n    <li class=\"nav-item\" [routerLinkActive]=\"['link-active']\">\r\n      <a class=\"nav-link\" [routerLink]=\"['/counter']\">Counter</a>\r\n    </li>\r\n    <li class=\"nav-item\" [routerLinkActive]=\"['link-active']\">\r\n      <a class=\"nav-link\" [routerLink]=\"['/fetch-data']\">Fetch Data</a>\r\n    </li>\r\n    <li class=\"nav-item\" [routerLinkActive]=\"['link-active']\">\r\n      <a class=\"nav-link\" [routerLink]=\"['/fish-list']\">Fish List</a>\r\n    </li>\r\n  </ul>\r\n\r\n  <ul class=\"nav nav-pills flex-column\">\r\n    <li class=\"nav-item\">\r\n      <a class=\"nav-link\" href=\"#\">Nav item</a>\r\n    </li>\r\n  </ul>\r\n</nav>";
 
 /***/ }),
 /* 68 */
