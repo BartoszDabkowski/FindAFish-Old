@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "d3f48946b6450d10ac66"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "d79d696660fb78ccfa9d"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -1318,40 +1318,40 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var FishListService = (function () {
     function FishListService() {
         this.fishList = [
-            { "id": 1, "name": "Angel", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 2, "name": "Angler", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 3, "name": "Anthias", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 4, "name": "Basslet", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 5, "name": "Blennies", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 6, "name": "Boxfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 7, "name": "Butterflyfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 8, "name": "Cardinalfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 9, "name": "Chromis", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 10, "name": "Clownfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 11, "name": "Damselfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 12, "name": "Dartfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 13, "name": "Dottyback", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 14, "name": "Dragonetes", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 15, "name": "Eels", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 16, "name": "Filefish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 17, "name": "Foxface", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 18, "name": "Gobies", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 19, "name": "Groupers", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 20, "name": "Grunts", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 21, "name": "Hawkfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 22, "name": "Hogfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 23, "name": "Jawfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 24, "name": "Lionfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 25, "name": "Pipefish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 26, "name": "Puffers", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 27, "name": "Rays", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 28, "name": "Scorpions", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 29, "name": "Seahorses", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 30, "name": "Sharks", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 31, "name": "Squirrellfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 32, "name": "Tangs", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 33, "name": "Triggerfish", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" },
-            { "id": 34, "name": "Wrasse", "imageUrl": "http://via.placeholder.com/350x250/24C4F9/ffffff" }
+            { "id": 1, "name": "Angel", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 2, "name": "Angler", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 3, "name": "Anthias", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 4, "name": "Basslet", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 5, "name": "Blennies", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 6, "name": "Boxfish", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 7, "name": "Butterflyfish", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 8, "name": "Cardinalfish", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 9, "name": "Chromis", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 10, "name": "Clownfish", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 11, "name": "Damselfish", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 12, "name": "Dartfish", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 13, "name": "Dottyback", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 14, "name": "Dragonetes", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 15, "name": "Eels", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 16, "name": "Filefish", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 17, "name": "Foxface", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 18, "name": "Gobies", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 19, "name": "Groupers", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 20, "name": "Grunts", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 21, "name": "Hawkfish", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 22, "name": "Hogfish", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 23, "name": "Jawfish", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 24, "name": "Lionfish", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 25, "name": "Pipefish", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 26, "name": "Puffers", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 27, "name": "Rays", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 28, "name": "Scorpions", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 29, "name": "Seahorses", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 30, "name": "Sharks", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 31, "name": "Squirrellfish", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 32, "name": "Tangs", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 33, "name": "Triggerfish", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" },
+            { "id": 34, "name": "Wrasse", "imageUrl": "http://via.placeholder.com/250x200/24C4F9/ffffff" }
         ];
     }
     FishListService.prototype.getFishList = function () {
@@ -8160,7 +8160,7 @@ module.exports = "<h2>{{fish.name}}</h2>\n";
 /* 114 */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card\" [routerLink]=\"['/fish-page', fish.id, fish.name]\">\n    <img class=\"card-img-top\" [src]=\"fish.imageUrl\" alt=\"{{ fish.name }}\">\n    <div class=\"card-block\">\n      <h4 class=\"card-title text-center\">{{ fish.name }}</h4>\n    </div>\n  </div>";
+module.exports = "<div class=\"card\" [routerLink]=\"['/fish-page', fish.id, fish.name]\">\n    <img class=\"card-img-top\" [src]=\"fish.imageUrl\" alt=\"{{ fish.name }}\">\n    <div class=\"card-block\">\n      <h5 class=\"card-title text-center\">{{ fish.name }}</h5>\n    </div>\n  </div>";
 
 /***/ }),
 /* 115 */
