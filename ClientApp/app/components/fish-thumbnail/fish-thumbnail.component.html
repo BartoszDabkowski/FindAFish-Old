@@ -1,23 +1,6 @@
-<!-- <div class="col-sm-3 col-md-2">
-  <a class="thumbnail" [routerLink]="['/fish-page', fish.id, fish.name]">
-    <img class="img-fluid" [src]="fish.imageUrl" alt="...">
-    <div class="caption">
-      <h5 class="text-center">{{ fish.name }}</h5>
-    </div>
-  </a>
-</div> -->
-
-  <!-- <div class="card" [routerLink]="['/fish-page', fish.id, fish.name]">
-    <img class="card-img-top" [src]="fish.imageUrl" alt="Card image cap">
+<div class="card" [routerLink]="['/fish-page', fish.id, fish.name]">
+    <img class="card-img-top" [src]="fish.imageUrl" alt="{{ fish.name }}">
     <div class="card-block">
-      <h5 class="card-text">{{ fish.name }}</h5>
-    </div>
-  </div> -->
-
-
-  <div class="card">
-    <img class="card-img-top" [src]="fish.imageUrl" alt="Card image cap">
-    <div class="card-block">
-      <h4 class="card-title">Card title</h4>
+      <h4 class="card-title text-center">{{ fish.name }}</h4>
     </div>
   </div>

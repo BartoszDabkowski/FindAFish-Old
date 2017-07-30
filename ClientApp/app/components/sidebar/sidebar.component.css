@@ -16,7 +16,7 @@ a{
 .sidebar {
   position: fixed;
   top: 51px;
-  /* bottom: 0; */
+  bottom: 0; 
   left: 0;
   z-index: 1000;
   padding: 20px;

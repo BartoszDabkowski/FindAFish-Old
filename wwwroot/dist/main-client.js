@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "1ebe5d0758d24ad52f60"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "26b49f8d4b02aa9592c0"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -1987,7 +1987,7 @@ exports = module.exports = __webpack_require__(2)(undefined);
 
 
 // module
-exports.push([module.i, "a:hover  {\n    background-color: #f6f6f6;\n    border-color: #dbdbdb;\n    text-decoration-line: none;\n}", ""]);
+exports.push([module.i, ".card{\n    margin-bottom: 25px;\n}\n.card:hover  {\n    background-color: #f6f6f6;\n    border-color: #dbdbdb;\n    text-decoration-line: none;\n}", ""]);
 
 // exports
 
@@ -2356,7 +2356,7 @@ module.exports = "<h1>Weather forecast</h1>\r\n\r\n<p>This component demonstrate
 /* 37 */
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"card-deck\">\n  <div *ngFor=\"let fish of fishList\">\n    <app-fish-thumbnail [fish]=\"fish\"></app-fish-thumbnail>\n  </div>\n</div>\n\n";
+module.exports = "\n<div class=\"row\">\n   <div class=\"col-sm-6 col-md-4 col-lg-3\" *ngFor=\"let fish of fishList\">\n    <app-fish-thumbnail [fish]=\"fish\"></app-fish-thumbnail>\n  </div> \n </div>\n  \n\n    \n\n\n\n";
 
 /***/ }),
 /* 38 */
@@ -2368,7 +2368,7 @@ module.exports = "<h2>{{fish.name}}</h2>\n";
 /* 39 */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- <div class=\"col-sm-3 col-md-2\">\n  <a class=\"thumbnail\" [routerLink]=\"['/fish-page', fish.id, fish.name]\">\n    <img class=\"img-fluid\" [src]=\"fish.imageUrl\" alt=\"...\">\n    <div class=\"caption\">\n      <h5 class=\"text-center\">{{ fish.name }}</h5>\n    </div>\n  </a>\n</div> -->\n\n  <!-- <div class=\"card\" [routerLink]=\"['/fish-page', fish.id, fish.name]\">\n    <img class=\"card-img-top\" [src]=\"fish.imageUrl\" alt=\"Card image cap\">\n    <div class=\"card-block\">\n      <h5 class=\"card-text\">{{ fish.name }}</h5>\n    </div>\n  </div> -->\n\n\n  <div class=\"card\">\n    <img class=\"card-img-top\" [src]=\"fish.imageUrl\" alt=\"Card image cap\">\n    <div class=\"card-block\">\n      <h4 class=\"card-title\">Card title</h4>\n    </div>\n  </div>";
+module.exports = "<div class=\"card\" [routerLink]=\"['/fish-page', fish.id, fish.name]\">\n    <img class=\"card-img-top\" [src]=\"fish.imageUrl\" alt=\"{{ fish.name }}\">\n    <div class=\"card-block\">\n      <h4 class=\"card-title text-center\">{{ fish.name }}</h4>\n    </div>\n  </div>";
 
 /***/ }),
 /* 40 */
@@ -4114,7 +4114,7 @@ exports = module.exports = __webpack_require__(2)(undefined);
 
 
 // module
-exports.push([module.i, "li .glyphicon {\r\n    margin-right: 10px;\r\n}\r\n\r\n/* Highlighting rules for nav menu items */\r\nli.link-active a,\r\nli.link-active a:hover,\r\nli.link-active a:focus {\r\n    background-color: #4189C7;\r\n    color: whitesmoke; \r\n}\r\na{\r\n     color: #292b2c; \r\n}\r\n\r\n.sidebar {\r\n  position: fixed;\r\n  top: 51px;\r\n  /* bottom: 0; */\r\n  left: 0;\r\n  z-index: 1000;\r\n  padding: 20px;\r\n  overflow-x: hidden;\r\n  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */\r\n  border-right: 1px solid #eee;\r\n}\r\n\r\n/* Sidebar navigation */\r\n.sidebar {\r\n  padding-left: 0;\r\n  padding-right: 0;\r\n}\r\n\r\n.sidebar .nav {\r\n  margin-bottom: 20px;\r\n}\r\n\r\n.sidebar .nav-item {\r\n  width: 100%;\r\n}\r\n\r\n.sidebar .nav-item + .nav-item {\r\n  margin-left: 0;\r\n}\r\n\r\n.sidebar .nav-link {\r\n  border-radius: 0;\r\n  white-space: nowrap;\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n}", ""]);
+exports.push([module.i, "li .glyphicon {\r\n    margin-right: 10px;\r\n}\r\n\r\n/* Highlighting rules for nav menu items */\r\nli.link-active a,\r\nli.link-active a:hover,\r\nli.link-active a:focus {\r\n    background-color: #4189C7;\r\n    color: whitesmoke; \r\n}\r\na{\r\n     color: #292b2c; \r\n}\r\n\r\n.sidebar {\r\n  position: fixed;\r\n  top: 51px;\r\n  bottom: 0; \r\n  left: 0;\r\n  z-index: 1000;\r\n  padding: 20px;\r\n  overflow-x: hidden;\r\n  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */\r\n  border-right: 1px solid #eee;\r\n}\r\n\r\n/* Sidebar navigation */\r\n.sidebar {\r\n  padding-left: 0;\r\n  padding-right: 0;\r\n}\r\n\r\n.sidebar .nav {\r\n  margin-bottom: 20px;\r\n}\r\n\r\n.sidebar .nav-item {\r\n  width: 100%;\r\n}\r\n\r\n.sidebar .nav-item + .nav-item {\r\n  margin-left: 0;\r\n}\r\n\r\n.sidebar .nav-link {\r\n  border-radius: 0;\r\n  white-space: nowrap;\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n}", ""]);
 
 // exports
 
