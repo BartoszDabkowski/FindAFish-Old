@@ -12,6 +12,9 @@ import { HomeComponent } from './components/home/home.component';
 import { FetchDataComponent } from './components/fetchdata/fetchdata.component';
 import { CounterComponent } from './components/counter/counter.component';
 
+//Libraries
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
 export const sharedConfig: NgModule = {
     bootstrap: [ AppComponent ],
     declarations: [
@@ -26,6 +29,7 @@ export const sharedConfig: NgModule = {
         FishPageComponent
     ],
     imports: [
+        NgbModule.forRoot(),
         RouterModule.forRoot([
             { path: '', redirectTo: 'home', pathMatch: 'full' },
             { path: 'home', component: HomeComponent },

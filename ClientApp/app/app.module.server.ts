@@ -1,3 +1,4 @@
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgModule } from '@angular/core';
 import { ServerModule } from '@angular/platform-server';
 import { sharedConfig } from './app.module';
@@ -6,6 +7,7 @@ import { sharedConfig } from './app.module';
     bootstrap: sharedConfig.bootstrap,
     declarations: sharedConfig.declarations,
     imports: [
+        NgbModule,
         ServerModule,
         ...sharedConfig.imports
     ]
